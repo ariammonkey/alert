@@ -1,0 +1,29 @@
+
+import android.app.Application;
+
+
+/**
+ * Created by Lourdes Onting on 1/10/2018.
+ */
+
+public class configDB extends Application {
+
+    //public static String ip = "192.168.0.22";
+    public static String ip = "http://192.168.0.22:81/Vet";
+    //public static String ip = "http://192.168.100.155:81/MyVet";
+   // public static String ip = "http://192.168.0.101:81";
+   // public static String ip = "http://10.0.3.2:81/Vet"; //genymotion
+    //public static String ip = "http://vetclinic.schoolinfokiosk.com"; // sa host
+
+    private  static configDB mydb;
+
+    public  static configDB getInstance(){
+        return  mydb;
+    }
+
+    @Override
+    public void onCreate() {
+        super.onCreate();
+        mydb = this;
+    }
+}
