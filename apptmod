@@ -1,0 +1,283 @@
+package com.example.lourdesonting.Veterinary;
+
+
+import android.app.AlertDialog;
+import android.content.Context;
+import android.content.DialogInterface;
+import android.content.SharedPreferences;
+import android.os.Bundle;
+import android.support.v4.app.Fragment;
+import android.util.Log;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
+import android.widget.Button;
+import android.widget.ListView;
+import android.widget.TextView;
+import android.widget.Toast;
+
+import com.kosalgeek.genasync12.AsyncResponse;
+import com.kosalgeek.genasync12.PostResponseAsyncTask;
+
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.text.DateFormat;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.HashMap;
+
+
+/**
+ * A simple {@link Fragment} subclass.
+ */
+public class apptmod extends Fragment {
+    View rootView;
+    Context context;
+    TextView app, stat;
+    ArrayList infos;
+    ListView info;
+    String st,id;
+    Button cbtn,backbtn,accbtn,decbtn;
+    String date,time;
+    public apptmod() {
+        // Required empty public constructor
+    }
+
+
+    @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                             Bundle savedInstanceState) {
+        // Inflate the layout for this fragment
+        rootView = inflater.inflate(R.layout.fragment_apptmod, container, false);
+        context = container.getContext();
+        app = rootView.findViewById(R.id.apphide);
+        stat = rootView.findViewById(R.id.stathide);
+        info = rootView.findViewById(R.id.apptinfo);
+        cbtn = rootView.findViewById(R.id.cancelbtn3);
+
+
+        accbtn = rootView.findViewById(R.id.acceptbtn);
+        decbtn = rootView.findViewById(R.id.declinebtn);
+        backbtn = rootView.findViewById(R.id.backbtn2);
+
+        Bundle bundle = getArguments();
+        id = bundle.getString("apptid");
+        st = bundle.getString("statt");
+        ArrayList inf = bundle.getStringArrayList("infos");
+
+        infos = new ArrayList<String>();
+        app.setText(id);
+        stat.setText(st);
+
+
+
+        SharedPreferences sharef = getActivity().getSharedPreferences("userinfo", Context.MODE_PRIVATE);
+        String myemail = sharef.getString("email","");
+
+        HashMap<String, String> postData = new HashMap<>();
+        postData.put("email", myemail);
+        postData.put("id", id);
+        PostResponseAsyncTask task1 = new PostResponseAsyncTask(context,postData, new AsyncResponse() {
+            @Override
+            public void processFinish(String result) {
+                //Toast.makeText(rootView.getContext(), result, Toast.LENGTH_LONG).show();
+                try {
+                    JSONObject parentobject = new JSONObject(result);
+                    JSONArray parentarray = parentobject.getJSONArray("appt");
+
+                    for(int i=0; i < parentarray.length() ; i++) {
+                        JSONObject json_data = parentarray.getJSONObject(i);
+                        // int id=json_data.getInt("id");
+                        String pet=json_data.getString("pet_name");
+                        String serv=json_data.getString("services");
+                        date=json_data.getString("appt_date");
+                        time=json_data.getString("appt_time");
+                        String vet=json_data.getString("vname");
+                        String status=json_data.getString("status");
+                        String id=json_data.getString("appt_id");
+
+                        DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
+                        String ndate = String.valueOf(dateFormat.parse(date));
+
+                        infos.add("Pet:           " +pet);
+                        infos.add("Date:         " + date);
+                        infos.add("Time:        " + time);
+                        infos.add("Status:      "+ status);
+                        infos.add("Vet:           " + vet);
+                        infos.add("Services: " + serv);
+
+
+                        Log.d(date,"Output");
+                        Log.d(id,"Output");
+                    }
+                    //  Toast.makeText(rootView.getContext(), app.get(0), Toast.LENGTH_LONG).show();
+
+                    info.setAdapter(new ArrayAdapter<String>(getActivity().getApplicationContext(),
+                            R.layout.mylayout2,R.id.mylist2 , infos));
+                    // listView.setAdapter(adapter);
+
+
+                } catch (JSONException e) {
+                    e.printStackTrace();
+                } catch (ParseException e) {
+                    e.printStackTrace();
+                }
+            }
+        });
+
+        task1.execute(configDB.ip+"/json/apptreq.php");
+        //task1.execute("http://10.0.3.2:81/Vet/json/apptreq.php");
+
+
+        if(st.equals("Pending")) {
+
+            cbtn.setVisibility(View.VISIBLE);
+            cbtn.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    AlertDialog.Builder mbuilder = new AlertDialog.Builder(getActivity());
+                    mbuilder.setTitle("Confirmation");
+                    mbuilder.setMessage("Are you sure you want to cancel appointment?");
+
+                    mbuilder.setCancelable(false);
+                    mbuilder.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+                            HashMap<String, String> postData = new HashMap<>();
+                            postData.put("status", "cancel");
+                            postData.put("appmt", id);
+                            PostResponseAsyncTask task1 = new PostResponseAsyncTask(context, postData, new AsyncResponse() {
+                                @Override
+                                public void processFinish(String result) {
+
+                                    Toast.makeText(rootView.getContext(), result, Toast.LENGTH_LONG).show();
+                                    status fragment = new status();
+                                    android.support.v4.app.FragmentTransaction fragmentTransaction = getFragmentManager().beginTransaction();
+                                    fragmentTransaction.replace(R.id.maaine, fragment).commit();
+                                }
+                            });
+
+                            task1.execute(configDB.ip+"/json/apptmod.php");
+                            //task1.execute("http://10.0.3.2:81/Vet/json/apptmod.php");
+                        }
+                    });
+                    mbuilder.setNegativeButton("No", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+                            dialog.dismiss();
+                        }
+                    });
+
+                    AlertDialog pop = mbuilder.create();
+                    pop.show();
+
+                }
+            });
+
+
+
+        }
+        else if(st.equals("Resched")){
+            accbtn.setVisibility(View.VISIBLE);
+            decbtn.setVisibility(View.VISIBLE);
+            accbtn.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    AlertDialog.Builder mbuilder = new AlertDialog.Builder(getActivity());
+                    mbuilder.setTitle("Confirmation");
+                    mbuilder.setMessage("Accept appointment reschedule?");
+
+                    mbuilder.setCancelable(false);
+                    mbuilder.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+                            HashMap<String, String> postData = new HashMap<>();
+                            postData.put("status", "accept");
+                            postData.put("id", id);
+                            postData.put("date", date);
+                            postData.put("time", time);
+                            PostResponseAsyncTask task1 = new PostResponseAsyncTask(context, postData, new AsyncResponse() {
+                                @Override
+                                public void processFinish(String result) {
+                                    Toast.makeText(rootView.getContext(), result, Toast.LENGTH_LONG).show();
+                                    status fragment = new status();
+                                    android.support.v4.app.FragmentTransaction fragmentTransaction = getFragmentManager().beginTransaction();
+                                    fragmentTransaction.replace(R.id.maaine, fragment).commit();
+                                }
+                            });
+
+                            task1.execute(configDB.ip+"/json/apptmod.php");
+                            //task1.execute("http://10.0.3.2:81/Vet/json/apptmod.php");
+                        }
+                    });
+                    mbuilder.setNegativeButton("No", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+                            dialog.dismiss();
+                        }
+                    });
+
+                    AlertDialog pop = mbuilder.create();
+                    pop.show();
+
+                }
+            });
+
+            decbtn.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    AlertDialog.Builder mbuilder = new AlertDialog.Builder(getActivity());
+                    mbuilder.setTitle("Confirmation");
+                    mbuilder.setMessage("Decline appointment reschedule?");
+
+                    mbuilder.setCancelable(false);
+                    mbuilder.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+                            HashMap<String, String> postData = new HashMap<>();
+                            postData.put("status", "decline");
+                            postData.put("id", id);
+                            PostResponseAsyncTask task1 = new PostResponseAsyncTask(context, postData, new AsyncResponse() {
+                                @Override
+                                public void processFinish(String result) {
+                                    Toast.makeText(rootView.getContext(), result, Toast.LENGTH_LONG).show();
+                                    status fragment = new status();
+                                    android.support.v4.app.FragmentTransaction fragmentTransaction = getFragmentManager().beginTransaction();
+                                    fragmentTransaction.replace(R.id.maaine, fragment).commit();
+                                }
+                            });
+
+                            task1.execute(configDB.ip+"/json/apptmod.php");
+                            //task1.execute("http://10.0.3.2:81/Vet/json/apptmod.php");
+                        }
+                    });
+                    mbuilder.setNegativeButton("No", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+                            dialog.dismiss();
+                        }
+                    });
+
+                    AlertDialog pop = mbuilder.create();
+                    pop.show();
+
+                }
+            });
+        }
+        backbtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                status fragment = new status();
+                android.support.v4.app.FragmentTransaction fragmentTransaction = getFragmentManager().beginTransaction();
+                fragmentTransaction.replace(R.id.maaine, fragment).commit();
+            }
+        });
+        return  rootView;
+    }
+
+}
