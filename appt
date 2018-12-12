@@ -1,0 +1,705 @@
+package com.example.lourdesonting.Veterinary;
+
+
+import android.app.AlertDialog;
+import android.app.DatePickerDialog;
+import android.content.Context;
+import android.content.DialogInterface;
+import android.content.SharedPreferences;
+import android.os.Bundle;
+import android.support.annotation.Nullable;
+import android.support.v4.app.Fragment;
+import android.util.Log;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
+import android.widget.Button;
+import android.widget.DatePicker;
+import android.widget.EditText;
+import android.widget.Spinner;
+import android.widget.TextView;
+import android.widget.Toast;
+
+import com.kosalgeek.genasync12.AsyncResponse;
+import com.kosalgeek.genasync12.EachExceptionsHandler;
+import com.kosalgeek.genasync12.PostResponseAsyncTask;
+
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.io.IOException;
+import java.io.UnsupportedEncodingException;
+import java.net.MalformedURLException;
+import java.net.ProtocolException;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.HashMap;
+
+
+/**
+ * A simple {@link Fragment} subclass.
+ */
+public class appointment extends Fragment  {
+    ArrayList<String> items = new ArrayList<String>();
+    final ArrayList<String> items2 = new ArrayList<String>();
+    final ArrayList<String> vname = new ArrayList<String>();
+    final ArrayList<String> veid = new ArrayList<String>();
+    String ser,myd,pet,vet,timee;
+    SharedPreferences sharef;
+
+    private View cont;
+    Button servbtn,submitbtn;
+    Spinner vetspin,timespin,petspin,vetspin2;
+    EditText mydate;
+    TextView servv,serv_id,pet_id,vet_id,timeh,vetlbl;
+    ArrayList<String> avlt = new ArrayList<String>();
+    ArrayList<Integer> sel = new ArrayList<Integer>();
+    ArrayList<String>servn = new ArrayList<String>();
+    ArrayList<String>servid = new ArrayList<String>();
+    String[] newarr = new String[servn.size()];
+
+    private Button datebtn;
+    private DatePickerDialog.OnDateSetListener getdate;
+    public appointment() {
+        // Required empty public constructor
+    }
+
+
+    @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                             Bundle savedInstanceState) {
+        // Inflate the layout for this fragment
+
+        final ArrayList<String>petid = new ArrayList<String>();
+        final View rootView =  inflater.inflate(R.layout.fragment_appointment, container, false);
+        final Context context = container.getContext();
+        Button avlbtn = rootView.findViewById(R.id.avlbtn);
+        servbtn = rootView.findViewById(R.id.servbtn);
+        submitbtn = rootView.findViewById(R.id.submitbtn);
+        petspin = rootView.findViewById(R.id.petspin);
+        timespin = rootView.findViewById(R.id.timespin);
+        vetspin2 = rootView.findViewById(R.id.vetspin2);
+        vetspin = rootView.findViewById(R.id.vetspin);
+        cont = rootView.findViewById(R.id.container);
+        cont.setVisibility(View.GONE); //hide container
+        servv = rootView.findViewById(R.id.servv);
+        serv_id = rootView.findViewById(R.id.servid);
+        mydate = rootView.findViewById(R.id.apptdate);
+
+        datebtn = rootView.findViewById(R.id.datebtn);
+
+        pet_id = rootView.findViewById(R.id.pethide);
+        vet_id = rootView.findViewById(R.id.vethide);
+        timeh = rootView.findViewById(R.id.timehide);
+        vetlbl = rootView.findViewById(R.id.vtlbl);
+
+        Calendar calendar = Calendar.getInstance();
+        calendar.add(Calendar.DAY_OF_YEAR, 1);
+        Date tomorrow = calendar.getTime();
+
+        DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd", java.util.Locale.getDefault());
+        String tomorrowAsString = dateFormat.format(tomorrow);
+        mydate.setText(tomorrowAsString); //display tomorrow date
+        sharef = getActivity().getSharedPreferences("userinfo", Context.MODE_PRIVATE);
+        datebtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
+
+        PostResponseAsyncTask task2 = new PostResponseAsyncTask(context, new AsyncResponse() {
+            @Override
+            public void processFinish(String vets) {
+               vetspin.setAdapter(null);
+
+                try {
+                    JSONObject parentobject = new JSONObject(vets);
+                    JSONArray parentarray = parentobject.getJSONArray("vet");
+                    StringBuffer finaldata = new StringBuffer();
+                    for(int ii =0;ii<parentarray.length();ii++) {
+                        JSONObject finalobj = parentarray.getJSONObject(ii);
+                        String vetname = finalobj.getString("name");
+                        finaldata.append( vetname + "\n");
+                    }
+                    // Toast.makeText(rootView.getContext(), finaldata, Toast.LENGTH_LONG).show();
+
+
+                    for(int i=0; i < parentarray.length() ; i++) {
+                        JSONObject json_data = parentarray.getJSONObject(i);
+                        // int id=json_data.getInt("id");
+                        String name=json_data.getString("name");
+                        String id=json_data.getString("id");
+                        items.add(name);
+                        items2.add(id);
+                        Log.d(name,"Output");
+                        Log.d(id,"Output");
+                    }
+
+
+
+                    ArrayAdapter<String> dataAdapter = new ArrayAdapter<String>(rootView.getContext(),
+                            android.R.layout.simple_spinner_dropdown_item, items);
+                    dataAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+                    vetspin.setAdapter(dataAdapter);
+
+                    vetspin.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+                        @Override
+                        public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+                            String pos = "" + vetspin.getSelectedItemPosition();
+                            int n = vetspin.getSelectedItemPosition();
+
+                            String idd = String.valueOf(items2.get(n));
+                            vet_id.setText(idd);
+                            //    Toast.makeText(getActivity(),String.valueOf(idd),Toast.LENGTH_LONG).show();
+                        }
+
+                        @Override
+                        public void onNothingSelected(AdapterView<?> parent) {
+
+                        }
+                    }) ;
+
+
+                    // listView.setAdapter(adapter);
+
+
+                } catch (JSONException e) {
+                    e.printStackTrace();
+                }
+            }
+        });
+
+        task2.execute(configDB.ip+"/json/myvet.php");
+        task2.setEachExceptionsHandler(new EachExceptionsHandler() {
+            @Override
+            public void handleIOException(IOException e) {
+                Toast.makeText(context, "Error with internet or web server.", Toast.LENGTH_LONG).show();
+            }
+
+            @Override
+            public void handleMalformedURLException(MalformedURLException e) {
+                Toast.makeText(context, "Error with the URL.", Toast.LENGTH_LONG).show();
+            }
+
+            @Override
+            public void handleProtocolException(ProtocolException e) {
+                Toast.makeText(context, "Error with protocol.", Toast.LENGTH_LONG).show();
+            }
+
+            @Override
+            public void handleUnsupportedEncodingException(UnsupportedEncodingException e) {
+                Toast.makeText(getActivity(), "Error with text encoding.", Toast.LENGTH_LONG).show();
+            }
+
+
+        });
+
+
+        avlbtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                int pos = vetspin.getSelectedItemPosition();
+                cont.setVisibility(View.VISIBLE);
+                String idd = String.valueOf(items2.get(pos));
+                String date = mydate.getText().toString();
+               // vetspin2.setAdapter(null);
+
+
+                SharedPreferences.Editor editor = sharef.edit();
+                editor.putString("date",date);
+
+                editor.apply();
+                //Toast.makeText(getActivity(),String.valueOf(idd + "date:" + date),Toast.LENGTH_LONG).show();
+
+                HashMap<String, String> postData = new HashMap<>();
+                HashMap<String, String> postData2 = new HashMap<>();
+                postData.put("vetid", idd);
+                postData.put("date", date);
+                // postData2.put("email", myemail);
+                PostResponseAsyncTask task3 = new PostResponseAsyncTask(context,postData, new AsyncResponse() {
+
+
+                    @Override
+                    public void processFinish(String avl) {
+                        avlt.clear();
+                        timespin.setAdapter(null);
+                        if(avl.equals("null")) {
+                            Toast.makeText(rootView.getContext(), "Sorry, date is unavailable! Please choose another vet.", Toast.LENGTH_LONG).show();
+                            vetspin2.setVisibility(View.VISIBLE);
+                            vetlbl.setVisibility(View.VISIBLE);
+                       }
+                        else{
+                            vetspin2.setVisibility(View.GONE);
+                            vetlbl.setVisibility(View.GONE);
+                        }
+                        try{
+                            JSONObject parentobject = new JSONObject(avl);
+                            JSONArray parentarray = parentobject.getJSONArray("time");
+
+                            // Toast.makeText(rootView.getContext(), finaldata, Toast.LENGTH_LONG).show();
+
+
+
+                            for(int i=0; i < parentarray.length() ; i++) {
+                                JSONObject json_data = parentarray.getJSONObject(i);
+                                // int id=json_data.getInt("id");
+                                String time=json_data.getString("appt_time");
+
+                                avlt.add(time);
+
+                                Log.d(time,"Output");
+                            }
+
+                            // timespin = getActivity().findViewById(R.id.timespin);
+                            ArrayAdapter<String> dataAdapter = new ArrayAdapter<String>(rootView.getContext(),
+                                    R.layout.mylayout2,R.id.mylist2, avlt);
+                         //   dataAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+                            timespin.setAdapter(dataAdapter);
+                        } catch (JSONException e) {
+                            e.printStackTrace();
+                        }
+
+                    }
+
+
+
+                });
+                task3.execute(configDB.ip+"/json/avl.php");
+
+
+                String myemail = sharef.getString("email","");
+                postData2.put("email", myemail);
+                PostResponseAsyncTask task4 = new PostResponseAsyncTask(context,postData2, new AsyncResponse() {
+
+
+                    @Override
+                    public void processFinish(String pets) {
+                        petid.clear();
+                        try{
+                            JSONObject parentobject = new JSONObject(pets);
+                            JSONArray parentarray = parentobject.getJSONArray("pet");
+
+                            // Toast.makeText(rootView.getContext(), finaldata, Toast.LENGTH_LONG).show();
+
+                            ArrayList<String>petns = new ArrayList<String>();
+
+
+                            for(int i=0; i < parentarray.length() ; i++) {
+                                JSONObject json_data = parentarray.getJSONObject(i);
+                                // int id=json_data.getInt("id");
+                                String petn=json_data.getString("pet_name");
+                                String id=json_data.getString("pet_id");
+
+                                petns.add(petn);
+
+                                petid.add(id);
+
+                                Log.d(petn,"Output");
+                            }
+
+                            //  petspin = getActivity().findViewById(R.id.petspin);
+                            ArrayAdapter<String> dataAdapter = new ArrayAdapter<String>(rootView.getContext(),
+                                    R.layout.mylayout2,R.id.mylist2, petns);
+                           // dataAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+                            petspin.setAdapter(dataAdapter);
+                        } catch (JSONException e) {
+                            e.printStackTrace();
+                        }
+
+                    }
+
+
+
+                });
+                task4.execute(configDB.ip+"/json/mypets.php");
+
+                PostResponseAsyncTask task5 = new PostResponseAsyncTask(context, new AsyncResponse() {
+                    @Override
+                    public void processFinish(String servs) {
+
+                        servn.clear();
+
+                        try {
+                            JSONObject parentobject = new JSONObject(servs);
+                            JSONArray parentarray = parentobject.getJSONArray("services");
+                            //    ArrayList<String>servn = new ArrayList<String>();
+                            //  ArrayList<String>servid = new ArrayList<String>();
+                            for(int i=0; i < parentarray.length() ; i++) {
+                                JSONObject json_data = parentarray.getJSONObject(i);
+                                // int id=json_data.getInt("id");
+                                String name=json_data.getString("serv_name");
+                                String id=json_data.getString("serv_id");
+                                servn.add(name);
+                                servid.add(id);
+                                Log.d(name,"Output");
+                                Log.d(id,"Output");
+                            }
+
+
+                            newarr = null;
+                            newarr = servn.toArray(new String[servn.size()]);
+
+                            for(int i = 0; i < newarr.length ; i++){
+                                // Log.d("string is",(String)mStringArray[i]);
+
+                                Log.d("string is",newarr[i]);
+                            }
+
+                        /*    servspin = getActivity().findViewById(R.id.servspin);
+                            ArrayAdapter<String> dataAdapter = new ArrayAdapter<String>(getActivity().getApplicationContext(),
+                                    android.R.layout.simple_spinner_item, servn);
+                            dataAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+                            servspin.setAdapter(dataAdapter);
+
+                            // listView.setAdapter(adapter);
+                        */
+
+                        } catch (JSONException e) {
+                            e.printStackTrace();
+                        }
+                    }
+                });
+
+                task5.execute(configDB.ip+"/json/services.php");
+                HashMap<String, String> postData3 = new HashMap<>();
+
+                postData3.put("date", date);
+                PostResponseAsyncTask task6 = new PostResponseAsyncTask(context,postData3, new AsyncResponse() {
+                    @Override
+                    public void processFinish(String vets) {
+
+                        vname.clear();
+                        veid.clear();
+                        try {
+                            JSONObject parentobject = new JSONObject(vets);
+                            JSONArray parentarray = parentobject.getJSONArray("vet");
+                            StringBuffer finaldata = new StringBuffer();
+                            for(int ii =0;ii<parentarray.length();ii++) {
+                                JSONObject finalobj = parentarray.getJSONObject(ii);
+                                String vetname = finalobj.getString("name");
+                                finaldata.append( vetname + "\n");
+                            }
+                            // Toast.makeText(rootView.getContext(), finaldata, Toast.LENGTH_LONG).show();
+
+
+                            for(int i=0; i < parentarray.length() ; i++) {
+                                JSONObject json_data = parentarray.getJSONObject(i);
+                                // int id=json_data.getInt("id");
+                                String name=json_data.getString("name");
+                                String id=json_data.getString("id");
+                                vname.add(name);
+                                veid.add(id);
+                                Log.d(name,"Output");
+                                Log.d(id,"Output");
+                            }
+
+
+
+                            ArrayAdapter<String> dataAdapter = new ArrayAdapter<String>(rootView.getContext(),
+                                    R.layout.mylayout2,R.id.mylist2, vname);
+                          //  dataAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+                            vetspin2.setAdapter(dataAdapter);
+
+                            vetspin2.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+                                @Override
+                                public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+                                    String pos = "" + vetspin2.getSelectedItemPosition();
+                                    int n = vetspin2.getSelectedItemPosition();
+                                    String date = sharef.getString("date","");
+                                    String idd = String.valueOf(veid.get(n));
+                                    vet_id.setText(idd);
+                                      //  Toast.makeText(getActivity(),String.valueOf(date),Toast.LENGTH_LONG).show();
+
+                                    HashMap<String, String> postData = new HashMap<>();
+                                    postData.put("date", date);
+                                    postData.put("vetid", idd);
+                                    PostResponseAsyncTask task3 = new PostResponseAsyncTask(context,postData, new AsyncResponse() {
+
+
+                                        @Override
+                                        public void processFinish(String avl) {
+                                            avlt.clear();
+                                            timespin.setAdapter(null);
+                                            if(avl.equals("null")) {
+                                                Toast.makeText(rootView.getContext(), "Sorry, date is unavailable! Please choose another vet.", Toast.LENGTH_LONG).show();
+                                            }
+
+                                            try{
+                                                JSONObject parentobject = new JSONObject(avl);
+                                                JSONArray parentarray = parentobject.getJSONArray("time");
+
+                                                // Toast.makeText(rootView.getContext(), finaldata, Toast.LENGTH_LONG).show();
+
+
+
+                                                for(int i=0; i < parentarray.length() ; i++) {
+                                                    JSONObject json_data = parentarray.getJSONObject(i);
+                                                    // int id=json_data.getInt("id");
+                                                    String time=json_data.getString("appt_time");
+
+                                                    avlt.add(time);
+
+                                                    Log.d(time,"Output");
+                                                }
+
+                                                // timespin = getActivity().findViewById(R.id.timespin);
+                                                ArrayAdapter<String> dataAdapter = new ArrayAdapter<String>(rootView.getContext(),
+                                                        R.layout.mylayout2,R.id.mylist2, avlt);
+                                                //   dataAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+                                                timespin.setAdapter(dataAdapter);
+                                            } catch (JSONException e) {
+                                                e.printStackTrace();
+                                            }
+
+                                        }
+
+
+
+                                    });
+                                    task3.execute(configDB.ip+"/json/avl.php");
+
+                                }
+
+                                @Override
+                                public void onNothingSelected(AdapterView<?> parent) {
+
+                                }
+                            }) ;
+
+
+                            // listView.setAdapter(adapter);
+
+
+                        } catch (JSONException e) {
+                            e.printStackTrace();
+                        }
+                    }
+                });
+
+                task6.execute(configDB.ip+"/json/vetavl.php");
+            }
+        });
+       // vetspin2.setSelected();
+
+        servbtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+
+                String nn = newarr.length+"";
+                final boolean[] checked = new boolean[newarr.length];
+                Log.d("length is",nn);
+
+                AlertDialog.Builder mbuilder = new AlertDialog.Builder(getActivity());
+                mbuilder.setTitle("Select Services");
+                mbuilder.setMultiChoiceItems(newarr, checked, new DialogInterface.OnMultiChoiceClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int pos, boolean checked) {
+                        if(checked){
+                            if(!sel.contains(pos)){
+                                sel.add(pos);
+                            }
+                            else{
+                                sel.remove((Integer)pos);
+                            }
+                        }
+                    }
+                });
+
+                mbuilder.setCancelable(false);
+                mbuilder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        String s = "";
+                        String s2 = "";
+                        for (int i = 0;i<sel.size();i++){
+                            s2 = s2 + newarr[sel.get(i)];
+                            int newsel = sel.get(i) + 1;
+                            s = s + newsel;
+                            if(i!=sel.size()-1){
+                                s = s + ", ";
+                                s2 = s2 + ", ";
+                            }
+                        }
+                        servv.setText(s2);
+                        serv_id.setText(s);
+                    }
+                });
+                mbuilder.setNegativeButton("Dismiss", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        dialog.dismiss();
+                    }
+                });
+                mbuilder.setNeutralButton("Deselect All", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        for (int i =0;i<checked.length;i++){
+                            checked[i] = false;
+                            sel.clear();
+                            servv.setText("");
+                        }
+                    }
+                });
+                AlertDialog pop = mbuilder.create();
+                pop.show();
+            }
+        });
+
+        petspin.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+                int n = petspin.getSelectedItemPosition();
+
+                String idd = String.valueOf(petid.get(n));
+                pet_id.setText(idd);
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> parent) {
+
+            }
+        });
+        timespin.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+                // int n = timespin.getSelectedItemPosition();
+
+                String time= String.valueOf(timespin.getSelectedItem());
+                timeh.setText(time);
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> parent) {
+
+            }
+        });
+        submitbtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                ser = serv_id.getText().toString();
+                myd = mydate.getText().toString();
+                pet = pet_id.getText().toString();
+                vet = vet_id.getText().toString();
+                timee = timeh.getText().toString();
+                if(ser==""){
+                    Toast.makeText(getActivity(),"Please Select Services",Toast.LENGTH_LONG).show();
+                }
+                else{
+                    AlertDialog.Builder mbuilder = new AlertDialog.Builder(getActivity());
+                    mbuilder.setTitle("Confirmation");
+                    mbuilder.setMessage("Submit appointment request?");
+
+                    mbuilder.setCancelable(false);
+                    mbuilder.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+                            HashMap<String, String> postData = new HashMap<>();
+                            postData.put("servid", ser);
+                            postData.put("date", myd);
+                            postData.put("pet", pet);
+                            postData.put("vet", vet);
+                            postData.put("time", timee);
+                            // postData2.put("email", myemail);
+                            PostResponseAsyncTask task6 = new PostResponseAsyncTask(context,postData, new AsyncResponse() {
+                                @Override
+                                public void processFinish(String servs) {
+
+                                    Toast.makeText(getActivity(),servs,Toast.LENGTH_LONG).show();
+                                    servv.setText("");
+                                  // getActivity().finish();
+                                    appointment fragment = new appointment();
+                                    android.support.v4.app.FragmentTransaction fragmentTransaction = getFragmentManager().beginTransaction();
+
+                                    fragmentTransaction.replace(R.id.maaine, fragment).commit();
+                                }
+                            });
+
+                            task6.execute(configDB.ip+"/json/appt.php");
+                        }
+                    });
+                    mbuilder.setNegativeButton("No", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+                            dialog.dismiss();
+                        }
+                    });
+
+                    AlertDialog pop = mbuilder.create();
+                    pop.show();
+
+
+
+                }
+            }
+        });
+
+
+        return rootView;
+    }
+    public void onViewCreated(View view, Bundle savedInstanceState) {
+        super.onViewCreated(view, savedInstanceState);
+        datebtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // TODO Auto-generated method stub
+                showDatePicker();
+            }
+        });
+    }
+
+    private void showDatePicker() {
+        apptdate date = new apptdate();
+        /**
+         * Set Up Current Date Into dialog
+         */
+        Calendar calender = Calendar.getInstance();
+        Bundle args = new Bundle();
+        args.putInt("year", calender.get(Calendar.YEAR));
+        args.putInt("month", calender.get(Calendar.MONTH));
+        args.putInt("day", calender.get(Calendar.DAY_OF_MONTH));
+        //  calender.add(Calendar.DATE, 1);
+        date.setArguments(args);
+        /**
+         * Set Call back to capture selected date
+         */
+        date.setCallBack(ondate);
+        date.show(getFragmentManager(), "Date Picker");
+    }
+
+    DatePickerDialog.OnDateSetListener ondate = new DatePickerDialog.OnDateSetListener() {
+
+        public void onDateSet(DatePicker view, int year, int monthOfYear,
+                              int dayOfMonth) {
+
+            monthOfYear = monthOfYear + 1;
+
+            String date = year + "-" + monthOfYear +"-"+ dayOfMonth;
+            mydate.setText(date);
+        }
+    };
+
+    @Override
+    public void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
+        outState.putStringArrayList("ITEMS",items);
+
+
+    }
+
+    @Override
+    public void onViewStateRestored(@Nullable Bundle savedInstanceState) {
+        super.onViewStateRestored(savedInstanceState);
+        if(savedInstanceState!=null) {
+            items = savedInstanceState.getStringArrayList("ITEMS");
+        }
+    }
+}
