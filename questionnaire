@@ -3364,11 +3364,6 @@ C. The key entered is based on the Diffie-Hellman method.
 D. The key is an RSA key used to encrypt the wireless data.
 ","A
 ",445
-"446. You need to deploy a new web-based software package for your organization. The package requires three separate servers and needs to be available on the Internet. 
-What is the recommended architecture in terms of server placement?
-Ans: A web server facing the Internet, an application server on the internal network, a database server on the internal network
-","A web server facing the Internet, an application server on the internal network, a database server on the internal network
-",446
 "447. In the software security development life cycle process, threat modeling occurs in which phase?
 A. Design
 B. Requirements
@@ -3602,3 +3597,6 @@ A. Penetration testing
 B. Social engineering
 C. Vulnerability scanning
 D. Access control list reviews",A,480
+"446. You need to deploy a new web-based software package for your organization. The package requires three separate servers and needs to be available on the Internet. 
+What is the recommended architecture in terms of server placement?","A web server facing the Internet, an application server on the internal network, a database server on the internal network
+",446
